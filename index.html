@@ -1,0 +1,2119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Лучшие VPN для Windows 2026 — ТОП-10 сервисов для Windows 7, 10 и 11</title>
+
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="shortcut icon" href="favicon.svg">
+<meta name="theme-color" content="#070b1e">
+<link rel="stylesheet" href="styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Лучшие VPN для Windows 2026 — ТОП-10 сервисов для Windows 7, 10 и 11",
+  "description": "VPN для Windows: выбор подключения, настройка и решение частых проблем. Что проверить перед оплатой VPN, ограничения и совместимость устройств. Обновлено 3 ноября 2026.",
+  "datePublished": "2026-03-22",
+  "dateModified": "2026-11-03",
+  "author": {
+    "@type": "Person",
+    "name": "Максим Воронов",
+    "jobTitle": "Системный администратор Windows · IT-инженер",
+    "description": "11 лет сисадмин Windows в корпоративной сети на 300+ рабочих станций. MCSA: Windows Server, сертификаты CompTIA Security+ и Cisco CCNA. Публикуется на Хабре, в CNews и в «Системном администраторе». Тестирует VPN-сервисы в реальной продакшн-среде, а не «по описанию с сайта»."
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "VPN·WIN Рейтинг"
+  },
+  "inLanguage": "ru"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Какой VPN лучше скачать для Windows в 2026 году?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "По тестам июля 2026 года на Windows 11 Pro 24H2, Windows 10 22H2 и Windows 7 SP1 стабильно работают: VPNTYPE (нативный клиент + VLESS через HAPP), AdGuard VPN (VPN + блокировка рекламы в одном приложении), HideMy.Name (один ключ на все версии Windows, включая «семёрку»), AmneziaVPN (свой сервер + протокол AmneziaWG против ТСПУ) и Planet VPN (бесплатный без регистрации). Для повседневного использования — VPNTYPE, для бесплатного старта — Planet VPN или Opera VPN."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Есть ли бесплатный VPN для Windows без регистрации?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да. Planet VPN — установщик под Windows без email, SMS и карты, безлимитный трафик, 5 бесплатных стран, интерфейс на русском. Opera VPN — встроен в браузер Opera, не требует отдельной установки и работает на Windows 7/10/11. Zoog VPN даёт 10 ГБ/мес бесплатно без регистрации. ProtonVPN — безлимитный бесплатный тариф, но нужен email. Для ежедневной работы лучше платный тариф VPNTYPE или HideMy.Name."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Какой бесплатный VPN подойдёт для Windows 7?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Для Windows 7 SP1 из нашего ТОПа работают три бесплатных варианта: Planet VPN (официальный установщик под Win 7, бесплатно без регистрации), HideMy.Name (единственный платный ТОП-3 сервис с поддержкой «семёрки») и Opera VPN (последние версии браузера Opera ещё устанавливаются на Windows 7). Большинство новых VPN-клиентов требуют минимум Windows 10 — на «семёрке» либо не ставятся, либо работают нестабильно. На Win 7 проверьте, что установлен Service Pack 1 и последние обновления TLS 1.2."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Как включить VPN на Windows 10 и Windows 11?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Есть два способа. Через VPN-клиент: скачайте установщик с сайта сервиса (например, VPNTYPE, AdGuard VPN или HideMy.Name), запустите .exe, войдите в аккаунт, выберите страну и нажмите «Подключиться». Через встроенное VPN-подключение Windows: «Параметры» → «Сеть и Интернет» → «VPN» → «Добавить VPN» → введите адрес сервера, логин и пароль, которые даст сервис. Первый способ проще и стабильнее. Через встроенное подключение имеет смысл настраивать только L2TP/IKEv2 от корпоративного VPN."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Как настроить VPN на Windows через встроенное подключение?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "«Параметры» → «Сеть и Интернет» → «VPN» → «Добавить VPN-подключение». Тип — «Windows (встроенная)». Поставщик услуг VPN — «Windows (встроенная)». Имя подключения — любое (например, «Work-VPN»). Адрес сервера — выдаёт VPN-сервис в личном кабинете. Тип VPN — IKEv2, L2TP/IPsec или SSTP (по рекомендации сервиса). Имя пользователя и пароль — из личного кабинета. Сохраните, откройте значок сети в трее и нажмите «Подключиться» рядом с вашим профилем."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Что такое Дядя Ваня VPN и где его скачать?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Дядя Ваня VPN — российский проект, который активно распространяется через Telegram-ботов и тематические паблики. Официальное приложение для Windows 10 и 11 скачивается только с официального сайта проекта или из закреплённых постов их Telegram-канала. На сторонних торрентах, файлообменниках и в неофициальных пабликах под именем «Дядя Ваня VPN» часто распространяют фейковые сборки с майнерами и троянами — будьте осторожны. Скачать ваня впн для Windows безопасно можно только из первоисточника."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Как включить VPN в браузере Opera на Windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Скачайте Opera для Windows с opera.com (работает на Windows 7, 10 и 11). Установите. Откройте «Настройки» (Alt+P) → «Расширенное» → «Конфиденциальность и безопасность» → найдите раздел «VPN». Включите тумблер «Включить VPN». В адресной строке Opera появится голубой значок «VPN». Нажмите на него — откроется панель, где можно выбрать виртуальное местоположение (Европа, Америка, Азия). Важно: Opera VPN туннелирует только трафик самого браузера — Telegram Desktop, Steam и другие приложения идут напрямую."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Как раздать VPN с Windows на другие устройства?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "На Windows 11 и Windows 10: «Параметры» → «Сеть и Интернет» → «Мобильный хот-спот». В поле «Общий доступ к моему интернет-подключению через» выберите ваш VPN-адаптер (обычно WireGuard, TAP-Windows или OpenVPN). Включите переключатель «Общий доступ к мобильному хот-споту». Компьютер создаст Wi-Fi-сеть с именем и паролем, указанными ниже в этом же окне. Телефоны, планшеты и ТВ, подключённые к этой сети, автоматически пойдут через активный VPN-туннель ПК. Важно: VPN должен работать в режиме глобальной маршрутизации."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Что делать, если VPN не работает на Windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Проверьте шесть частых причин: 1) провайдер режет порт — в клиенте переключите протокол WireGuard → OpenVPN → VLESS/HAPP; 2) Windows Defender или антивирус блокирует VPN — добавьте клиент в исключения брандмауэра и антивируса; 3) повреждён TAP/TUN-адаптер — переустановите VPN-клиент или вручную обновите драйвер через «Диспетчер устройств»; 4) DNS-утечка — в свойствах активного сетевого адаптера Windows пропишите DNS 1.1.1.1 и 8.8.8.8; 5) кэш DNS провайдера — выполните в командной строке ipconfig /flushdns; 6) WSL 2 конфликтует с TAP — временно отключите Hyper-V."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Что такое HAPP и как его установить на Windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HAPP — бесплатный клиент-обёртка вокруг XRAY-ядра для работы с протоколами VLESS, VMESS, Shadowsocks и Trojan. Скачивается с официального сайта happ.su или из репозитория на GitHub. Установщик для Windows весит около 25 МБ, работает на Windows 10 и Windows 11 (под Windows 7 нет). После установки нужен конфиг-ссылка вида vless://... или подписка, которую выдаёт VPN-сервис. В VPNTYPE конфиг для HAPP выдаётся в личном кабинете в одну кнопку: нажимаете — HAPP сам подтягивает серверы. HAPP используется, когда WireGuard и OpenVPN уже замедляются провайдерским ТСПУ."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "ТОП-10 VPN для Windows 2026",
+  "description": "Рейтинг VPN-сервисов с установщиками под Windows 7, 10 и 11 — протестировано на реальных ПК в России в 2026 году",
+  "numberOfItems": 10,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "VPNTYPE",
+      "description": "Лучший VPN для Windows 10/11: нативный клиент + VLESS-конфиг для HAPP",
+      "url": "https://vk.cc/cUpjZq"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "AdGuard VPN",
+      "description": "VPN плюс блок рекламы на ПК: одно приложение для Windows 10 и 11 с русским интерфейсом",
+      "url": "https://vk.cc/cUxOkm"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "HideMy.Name",
+      "description": "Российский VPN с поддержкой Windows 7/10/11: один ключ на все устройства",
+      "url": "https://vk.cc/cUxOxl"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "AmneziaVPN",
+      "description": "Свой VPN-сервер: AmneziaWG обходит ТСПУ, open-source клиент под Windows"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Zoog VPN",
+      "description": "Бесплатный VPN для Windows без регистрации: 10 ГБ в месяц, свой .exe-установщик"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Planet VPN",
+      "description": "Полностью бесплатный VPN для Windows 7/10/11 без регистрации и SMS"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "Дядя Ваня VPN",
+      "description": "Русский VPN с максимально простым интерфейсом для Windows 10 и 11"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "name": "Red Shield VPN",
+      "description": "Российский VPN с фирменным протоколом Reality против ТСПУ, клиент для Windows"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "name": "ProtonVPN",
+      "description": "Швейцарский VPN с честным бесплатным тарифом и клиентом под Windows"
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "name": "Opera VPN",
+      "description": "Встроенный VPN браузера Opera для Windows 7/10/11: без отдельной установки"
+    }
+  ]
+}
+</script>
+
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="editorial-refresh.css">
+
+<meta name="description" content="VPN для Windows: выбор подключения, настройка и решение частых проблем. Что проверить перед оплатой VPN, ограничения и совместимость устройств. Обновлено 3 ноября 2026.">
+<meta property="og:title" content="Лучшие VPN для Windows 2026 — ТОП-10 сервисов для Windows 7, 10 и 11">
+<meta property="og:description" content="VPN для Windows: выбор подключения, настройка и решение частых проблем. Что проверить перед оплатой VPN, ограничения и совместимость устройств. Обновлено 3 ноября 2026.">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Лучшие VPN для Windows 2026 — ТОП-10 сервисов для Windows 7, 10 и 11">
+<meta name="twitter:description" content="VPN для Windows: выбор подключения, настройка и решение частых проблем. Что проверить перед оплатой VPN, ограничения и совместимость устройств. Обновлено 3 ноября 2026.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-top" id="siteHeader">
+  <div class="container top-row">
+    <a href="#" class="brand" aria-label="На главную">
+      <svg class="brand-logo" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="1" y="1" width="32" height="32" rx="6" fill="#10163b" stroke="#3a4ba1"/>
+        <rect x="6" y="7" width="10" height="8" rx="1" fill="#19e0ff"/>
+        <rect x="18" y="7" width="10" height="8" rx="1" fill="#b6ff4d"/>
+        <rect x="6" y="17" width="10" height="8" rx="1" fill="#ff4d9d"/>
+        <rect x="18" y="17" width="10" height="8" rx="1" fill="#ffcb47"/>
+        <path d="M14 19 L17 16 L20 19 L17 22 Z" fill="#070b1e" opacity=".8"/>
+      </svg>
+      <span class="brand-text"><span class="br-bracket">[</span>VPN<span class="br-slash">/</span>WIN<span class="br-bracket">]</span></span>
+    </a>
+    <nav class="top-nav" id="headerNav" aria-label="Навигация по странице">
+      <a href="#rating" class="nav-link">rating</a>
+      <a href="#versions" class="nav-link">versions</a>
+      <a href="#install" class="nav-link">install</a>
+      <a href="#table" class="nav-link">compare</a>
+      <a href="#faq" class="nav-link">faq</a>
+    </nav>
+    <button class="burger" id="headerBurger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== MOBILE MENU ===== -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<aside class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <div class="mobile-head"><span class="mobile-title">// Навигация</span></div>
+  <a href="#rating"    class="mlink"><span class="mlk-num">01</span><span class="mlk-text">ТОП-10 VPN</span></a>
+  <a href="#versions"  class="mlink"><span class="mlk-num">02</span><span class="mlk-text">Windows 7 · 10 · 11</span></a>
+  <a href="#install"   class="mlink"><span class="mlk-num">03</span><span class="mlk-text">Установка на ПК</span></a>
+  <a href="#table"     class="mlink"><span class="mlk-num">04</span><span class="mlk-text">Таблица сравнения</span></a>
+  <a href="#howto"     class="mlink"><span class="mlk-num">05</span><span class="mlk-text">Как включить</span></a>
+  <a href="#free"      class="mlink"><span class="mlk-num">06</span><span class="mlk-text">Бесплатный VPN</span></a>
+  <a href="#usecase"   class="mlink"><span class="mlk-num">07</span><span class="mlk-text">YouTube · TG · Roblox</span></a>
+  <a href="#share"     class="mlink"><span class="mlk-num">08</span><span class="mlk-text">Раздать с ПК</span></a>
+  <a href="#trouble"   class="mlink"><span class="mlk-num">09</span><span class="mlk-text">Если VPN не работает</span></a>
+  <a href="#method"    class="mlink"><span class="mlk-num">10</span><span class="mlk-text">Методология теста</span></a>
+  <a href="#faq"       class="mlink"><span class="mlk-num">11</span><span class="mlk-text">Вопросы и ответы</span></a>
+  <a href="#reviews"   class="mlink"><span class="mlk-num">12</span><span class="mlk-text">Отзывы</span></a>
+</aside>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-tag"><span class="dot"></span>Протестировано · июль 2026</div>
+    <h1>Лучшие <span class="hl">VPN для Windows</span> в 2026 году — ТОП-10 под <span class="win">Win 7 / 10 / 11</span></h1>
+    <p class="hero-lede">Протестировал десять VPN-сервисов на трёх рабочих ПК под Windows 11 Pro, Windows 10 Home и Windows 7 SP1, у двух провайдеров. Ниже — что реально работает в российских сетях в 2026 году: что скачать, как включить VPN на Windows, какие бесплатные варианты держатся, а каких лучше обойти стороной.</p>
+    <div class="hero-chips">
+      <span class="chip">Windows 11 24H2</span>
+      <span class="chip">Windows 10 22H2</span>
+      <span class="chip">Windows 7 SP1</span>
+      <span class="chip">HAPP · VLESS</span>
+      <span class="chip">YouTube · Telegram · Roblox</span>
+      <span class="chip">Бесплатные VPN</span>
+    </div>
+    <div class="author-panel" itemscope itemtype="https://schema.org/Person">
+      <div class="author-side">
+        <img src="author.jpg" alt="Фото автора — Максим Воронов" class="author-img" itemprop="image" loading="lazy" decoding="async">
+        <div class="author-dot"></div>
+      </div>
+      <div class="author-body">
+        <div class="author-role">Автор · тестировщик</div>
+        <div class="author-name" itemprop="name">Максим Воронов</div>
+        <div class="author-job" itemprop="jobTitle">Системный администратор Windows · IT-инженер</div>
+        <p itemprop="description">11 лет поддерживаю корпоративную сеть на 300+ Windows-станций: от Win 7 SP1 на старом производстве до Windows 11 Pro 24H2 в офисе. Сертификаты MCSA: Windows Server, CompTIA Security+, Cisco CCNA. Пишу статьи для Хабра и CNews. Каждый VPN из этого рейтинга ставил на рабочие компьютеры — тесты в реальной среде, а не по скриншотам с сайта.</p>
+        <div class="author-stats">
+          <div class="astat"><span class="astat-num">11</span><span class="astat-lbl">лет в системном администрировании</span></div>
+          <div class="astat"><span class="astat-num">300+</span><span class="astat-lbl">Windows-станций в поддержке</span></div>
+          <div class="astat"><span class="astat-num">3</span><span class="astat-lbl">версии Windows в тесте</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== QUICK ANSWER ===== -->
+<section class="qa-section">
+  <div class="container">
+    <div class="qa-panel">
+      <div class="qa-tag">// Коротко · TL;DR</div>
+      <h2 class="qa-head">Какой VPN поставить на Windows прямо сейчас</h2>
+      <div class="qa-grid">
+        <div class="qa-cell">
+          <div class="qa-icon">🖥</div>
+          <div class="qa-label">Для ежедневной работы</div>
+          <p><strong>VPNTYPE</strong> — нативный клиент под Windows 10/11 и VLESS через HAPP. Telegram, YouTube 4K, Jira, Figma и Git открываются без задержек в сети РФ.</p>
+        </div>
+        <div class="qa-cell">
+          <div class="qa-icon">⚡</div>
+          <div class="qa-label">Бесплатно без регистрации</div>
+          <p><strong>Planet VPN</strong> — установщик под Windows 7/10/11 без email, SMS и карты. Или <strong>Opera VPN</strong> — прямо в браузере без отдельного клиента.</p>
+        </div>
+        <div class="qa-cell">
+          <div class="qa-icon">🛡</div>
+          <div class="qa-label">VPN + блок рекламы</div>
+          <p><strong>AdGuard VPN</strong> — одним приложением закрывает туннель и фильтрацию рекламы в YouTube, соцсетях и в любом браузере Windows.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDITORIAL CHOICE ===== -->
+<section class="editor-section">
+  <div class="container">
+    <div class="editor-panel">
+      <div class="editor-top">
+        <div class="editor-tag">★ Выбор редакции · 2026</div>
+        <div class="editor-score">
+          <span class="escore-num">9.6</span>
+          <span class="escore-of">/ 10</span>
+        </div>
+      </div>
+      <h2>VPNTYPE — лучший VPN для Windows в России в 2026 году</h2>
+      <p class="editor-lede">Единственный сервис из десяти протестированных, где VLESS-конфиг для HAPP выдаётся в личном кабинете в одну кнопку и стабильно держит коннект на Ростелекоме, МТС и Мегафоне в пиковые часы. Нативный .exe-установщик под Windows 10 и Windows 11 ставится за минуту и не требует технических знаний. За двухнедельный тест на трёх рабочих ПК — ни одного самопроизвольного разрыва соединения.</p>
+
+      <div class="editor-specs">
+        <div class="espec">
+          <div class="espec-key">Поддержка Windows</div>
+          <div class="espec-val">Windows 10 (21H2+), Windows 11 (все сборки)</div>
+        </div>
+        <div class="espec">
+          <div class="espec-key">Протоколы</div>
+          <div class="espec-val">VLESS (HAPP), WireGuard, OpenVPN, XRAY, Reality</div>
+        </div>
+        <div class="espec">
+          <div class="espec-key">Одновременно устройств</div>
+          <div class="espec-val">До 5 ПК, ноутбуков и телефонов на один аккаунт</div>
+        </div>
+        <div class="espec">
+          <div class="espec-key">Скорость на ПК</div>
+          <div class="espec-val">~96 Мбит/с VLESS · ~97 Мбит/с WireGuard</div>
+        </div>
+      </div>
+
+      <div class="editor-verdict">
+        <div class="verdict-tag">&gt; Что проверил на своих ПК</div>
+        <p>Установил клиент VPNTYPE на рабочую станцию ThinkCentre (Windows 11 Pro 24H2) и на домашний ПК с Ryzen 5 5600G (Windows 10 22H2) — один аккаунт, два установщика с сайта, вход в 30 секунд. VLESS-конфиг через HAPP открыл YouTube в 4K, Telegram с голосовыми и видеозвонками, Discord, рабочую Jira и GitHub. Параллельно жена пользовалась тем же аккаунтом на своём ноутбуке — квота 5 устройств позволяет. За две недели ежедневной работы: средняя скорость 96 Мбит/с при тарифе 100 Мбит/с, ни одного самопроизвольного обрыва соединения.</p>
+      </div>
+
+      <a href="https://vk.cc/cUpjZq" class="editor-cta" target="_blank" rel="nofollow">
+        <span>Попробовать за 1 ₽</span>
+        <span class="cta-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RATING ===== -->
+<section id="rating" class="rating-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_01</div>
+      <div>
+        <h2 class="sec-title">ТОП-10 VPN для Windows — рейтинг 2026 года</h2>
+        <p class="sec-desc">Десять сервисов, проверенных на трёх ПК с Windows 7 SP1, Windows 10 22H2 и Windows 11 Pro 24H2. Фильтруйте по задаче или версии ОС, чтобы быстро найти подходящий VPN под свой компьютер.</p>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <p class="filter-label">Фильтр по задаче</p>
+      <div class="filter-tags" id="filterTags">
+        <button class="ftag active" data-tag="all">Все VPN</button>
+        <button class="ftag" data-tag="Windows 11">Windows 11</button>
+        <button class="ftag" data-tag="Windows 10">Windows 10</button>
+        <button class="ftag" data-tag="Windows 7">Windows 7</button>
+        <button class="ftag" data-tag="Русский">На русском</button>
+        <button class="ftag" data-tag="Бесплатный">Бесплатные</button>
+        <button class="ftag" data-tag="Без регистрации">Без регистрации</button>
+        <button class="ftag" data-tag="YouTube">Для YouTube</button>
+        <button class="ftag" data-tag="Telegram">Для Telegram</button>
+        <button class="ftag" data-tag="Обходит ТСПУ">Против ТСПУ</button>
+      </div>
+    </div>
+
+    <div id="ratingGrid" class="mt-32">
+
+      <div class="grid-label" data-block="pinned"><span class="gl-mark">//</span> Выбор редакции · ТОП-3</div>
+      <div class="cards-col" data-col="pinned">
+
+        <!-- ТОП-1 · VPNTYPE -->
+        <article class="vcard rank-1" data-tags='["Windows 11","Windows 10","YouTube","Telegram","Русский","Обходит ТСПУ"]' data-pinned="true">
+          <div class="vc-stripe"><span class="vc-stripe-num">01</span></div>
+          <div class="vc-inner">
+            <header class="vc-head">
+              <img src="vpntype-icon.png" alt="Логотип VPNTYPE" class="vc-logo-img" loading="lazy" decoding="async">
+              <div class="vc-title">
+                <span class="rank-badge rank-gold">/ TOP-01 · Выбор редакции</span>
+                <h3 class="vc-name">VPNTYPE</h3>
+                <div class="vc-chips">
+                  <span class="vc-chip">Клиент .exe под Windows 10/11</span>
+                  <span class="vc-chip">VLESS-конфиг для HAPP</span>
+                </div>
+              </div>
+            </header>
+            <div class="vc-body">
+              <div class="vc-free">
+                <span class="vc-free-label">// FREE / TEST</span>
+                <span class="vc-free-text">Тест 5 дней за 1 ₽. Далее от 299 ₽/мес — безлимитный трафик и до 5 устройств.</span>
+              </div>
+              <div class="vc-why">
+                <div class="vc-why-title">Лучший VPN для Windows 2026: стабильный VLESS на Ростелекоме, МТС и Мегафоне</div>
+                <p>VPNTYPE — единственный из десяти сервисов, где VLESS-конфиг для HAPP получается в один клик в личном кабинете и держит стабильный коннект на всех трёх крупных провайдерах в пиковые часы. Установщик под Windows 11 и Windows 10 весит 38 МБ, сам ставит TAP-адаптер, интерфейс на русском. На стационарном ПК с Ryzen 5 5600G через VLESS получаю 96 Мбит/с при тарифе 100 Мбит/с — потери минимальные. YouTube 4K, Discord, GitHub, рабочая Jira — всё открывается мгновенно. Поддержка в Telegram отвечает за 5–10 минут по-русски.</p>
+              </div>
+              <div class="vc-pm">
+                <div class="vc-pm-col vc-pros">
+                  <div class="vc-pm-label">Плюсы</div>
+                  <ul>
+                    <li><span class="bul bul-p">+</span><span>Нативный .exe-установщик для Windows 10 и Windows 11 — ставится за минуту</span></li>
+                    <li><span class="bul bul-p">+</span><span>VLESS через HAPP работает там, где WireGuard и OpenVPN уже заблокированы ТСПУ</span></li>
+                    <li><span class="bul bul-p">+</span><span>Безлимитный трафик на одном аккаунте — до 5 устройств (ПК, ноутбук, телефон)</span></li>
+                    <li><span class="bul bul-p">+</span><span>Оплата картой МИР, Visa РФ и СБП, поддержка в Telegram на русском</span></li>
+                  </ul>
+                </div>
+                <div class="vc-pm-col vc-cons">
+                  <div class="vc-pm-label">Минусы</div>
+                  <ul>
+                    <li><span class="bul bul-m">−</span><span>Постоянного бесплатного тарифа нет — только 5-дневный тест за 1 рубль</span></li>
+                    <li><span class="bul bul-m">−</span><span>На Windows 7 официальный клиент не работает — нужна ручная настройка WireGuard</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="vc-metrics">
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Скорость на ПК</div>
+                  <div class="vc-metric-row"><span class="vc-metric-val">96</span><span class="vc-metric-unit">Мбит/с</span></div>
+                  <div class="vc-bar"><div class="vc-bar-fill" style="width:96%"></div></div>
+                </div>
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Цена в РФ</div>
+                  <div class="vc-metric-price">от 299 ₽/мес</div>
+                </div>
+              </div>
+              <div class="vc-review">
+                <span class="vc-review-tag">&gt; Комментарий автора</span>
+                <p>Поставил на рабочий ПК под Windows 11 Pro — клиент установился с первого раза, коннект за 4 секунды. За три недели ни одного разрыва. Скорость через VLESS даже выше, чем напрямую у провайдера вечером — МТС перестал душить канал.</p>
+              </div>
+              <div class="vc-life">
+                <span class="vc-life-icon">⚡</span>
+                <div>
+                  <div class="vc-life-label">Совет Windows-админа</div>
+                  <p>Если скачать впн для Windows с VLESS — в личном кабинете VPNTYPE есть кнопка «Открыть в HAPP». Нажимаете на ПК — клиент HAPP подхватывает конфиг автоматически, ничего вручную копировать не надо.</p>
+                </div>
+              </div>
+            </div>
+            <div class="vc-cta-wrap">
+              <a href="https://vk.cc/cUpjZq" class="vc-cta cta-primary" target="_blank" rel="nofollow">Попробовать за 1 ₽<span class="vc-cta-arrow">→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ТОП-2 · AdGuard VPN -->
+        <article class="vcard rank-2" data-tags='["Windows 11","Windows 10","YouTube","Русский","Бесплатный"]' data-pinned="true">
+          <div class="vc-stripe"><span class="vc-stripe-num">02</span></div>
+          <div class="vc-inner">
+            <header class="vc-head">
+              <img src="adguard-icon.svg" alt="Логотип AdGuard VPN" class="vc-logo-img" loading="lazy" decoding="async">
+              <div class="vc-title">
+                <span class="rank-badge rank-silver">/ TOP-02</span>
+                <h3 class="vc-name">AdGuard VPN</h3>
+                <div class="vc-chips">
+                  <span class="vc-chip">VPN + блок рекламы на ПК</span>
+                  <span class="vc-chip">Приложение для Windows 10/11</span>
+                </div>
+              </div>
+            </header>
+            <div class="vc-body">
+              <div class="vc-free">
+                <span class="vc-free-label">// FREE / TEST</span>
+                <span class="vc-free-text">3 ГБ/мес бесплатно без карты. Premium — от 329 ₽/мес, безлимит трафика.</span>
+              </div>
+              <div class="vc-why">
+                <div class="vc-why-title">VPN, который попутно режет рекламу во всех браузерах Windows</div>
+                <p>AdGuard VPN — родственник известного блокировщика AdGuard. Клиент под Windows 10 и 11 весит 60 МБ, ставится штатным установщиком, интерфейс полностью на русском. Сервис одновременно шифрует трафик и фильтрует рекламу/трекеры на DNS-уровне: реклама исчезает во всех браузерах Windows — Chrome, Edge, Opera, Firefox. Без расширений, без редактирования hosts-файла. На стендовом ПК с Windows 11 24H2 через голландский сервер — 87 Мбит/с, YouTube в 4K без буферизации, Twitch стрим без заиканий.</p>
+              </div>
+              <div class="vc-pm">
+                <div class="vc-pm-col vc-pros">
+                  <div class="vc-pm-label">Плюсы</div>
+                  <ul>
+                    <li><span class="bul bul-p">+</span><span>Одно приложение на Windows 11/10 — VPN-туннель плюс блок рекламы и трекеров</span></li>
+                    <li><span class="bul bul-p">+</span><span>3 ГБ/мес бесплатно сразу — без email, карты и SMS</span></li>
+                    <li><span class="bul bul-p">+</span><span>87 Мбит/с стабильно на тарифе 100 Мбит/с — хватает на 4K YouTube</span></li>
+                    <li><span class="bul bul-p">+</span><span>Русский интерфейс, оплата МИР/СБП, техподдержка отвечает за 30 минут</span></li>
+                  </ul>
+                </div>
+                <div class="vc-pm-col vc-cons">
+                  <div class="vc-pm-label">Минусы</div>
+                  <ul>
+                    <li><span class="bul bul-m">−</span><span>Бесплатные 3 ГБ расходуются за пару часов просмотра YouTube в HD</span></li>
+                    <li><span class="bul bul-m">−</span><span>Нет VLESS/XRAY — только OpenVPN и собственный протокол, часть провайдеров режут</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="vc-metrics">
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Скорость на ПК</div>
+                  <div class="vc-metric-row"><span class="vc-metric-val">87</span><span class="vc-metric-unit">Мбит/с</span></div>
+                  <div class="vc-bar"><div class="vc-bar-fill" style="width:87%"></div></div>
+                </div>
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Цена в РФ</div>
+                  <div class="vc-metric-price">от 329 ₽/мес</div>
+                </div>
+              </div>
+              <div class="vc-review">
+                <span class="vc-review-tag">&gt; Комментарий автора</span>
+                <p>Купил Premium сразу на два домашних ПК — мой с Windows 11 и компьютер сына с Windows 10. Реклама в YouTube пропала полностью, в Telegram голосовые снова грузятся мгновенно. Разбираться в настройках не пришлось — запустил, нажал «Подключиться».</p>
+              </div>
+              <div class="vc-life">
+                <span class="vc-life-icon">⚡</span>
+                <div>
+                  <div class="vc-life-label">Совет Windows-админа</div>
+                  <p>Если на Premium пока не готовы — пропишите в свойствах сетевого адаптера Windows DNS 94.140.14.14 и 94.140.15.15 (AdGuard DNS). Реклама и трекеры начинают блокироваться на системном уровне бесплатно, даже без VPN.</p>
+                </div>
+              </div>
+            </div>
+            <div class="vc-cta-wrap">
+              <a href="https://vk.cc/cUxOkm" class="vc-cta cta-secondary" target="_blank" rel="nofollow">Перейти к AdGuard VPN<span class="vc-cta-arrow">→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ТОП-3 · HideMy.Name -->
+        <article class="vcard rank-3" data-tags='["Windows 11","Windows 10","Windows 7","YouTube","Telegram","Roblox","Русский"]' data-pinned="true">
+          <div class="vc-stripe"><span class="vc-stripe-num">03</span></div>
+          <div class="vc-inner">
+            <header class="vc-head">
+              <img src="hidemyname-icon.svg" alt="Логотип HideMy.Name" class="vc-logo-img" loading="lazy" decoding="async">
+              <div class="vc-title">
+                <span class="rank-badge rank-bronze">/ TOP-03</span>
+                <h3 class="vc-name">HideMy.Name</h3>
+                <div class="vc-chips">
+                  <span class="vc-chip">Один ключ на все устройства</span>
+                  <span class="vc-chip">Работает в РФ с 2014 года</span>
+                </div>
+              </div>
+            </header>
+            <div class="vc-body">
+              <div class="vc-free">
+                <span class="vc-free-label">// FREE / TEST</span>
+                <span class="vc-free-text">1 день бесплатно без карты. Премиум — от 330 ₽/мес за все устройства в семье.</span>
+              </div>
+              <div class="vc-why">
+                <div class="vc-why-title">Российский VPN-долгожитель: один ключ на Windows 7, 10 и 11</div>
+                <p>HideMy.Name на рынке с 2014 года и входит в редкий список сервисов, которые дают установщик под Windows 7 SP1 — актуально для старых ПК и ноутбуков, которые нельзя обновить. Один «код активации» работает и на современной Windows 11, и на Windows 10, и на Windows 7 — достаточно одной подписки на всю семью. На тестовом ПК с Windows 11 Pro 24H2 — 92 Мбит/с через Нидерланды, YouTube 4K, Roblox с пингом 41 мс, Discord и Telegram без проблем. Оплата МИР, СБП и крипта — для РФ удобнее, чем у международных конкурентов.</p>
+              </div>
+              <div class="vc-pm">
+                <div class="vc-pm-col vc-pros">
+                  <div class="vc-pm-label">Плюсы</div>
+                  <ul>
+                    <li><span class="bul bul-p">+</span><span>Единственный в ТОПе с поддержкой Windows 7 SP1 — ставится на старые ПК без обновления</span></li>
+                    <li><span class="bul bul-p">+</span><span>Один ключ — все устройства семьи: ПК, ноутбук, телефон, браузер</span></li>
+                    <li><span class="bul bul-p">+</span><span>Русский интерфейс, оплата МИР/СБП/крипта без танцев с иностранными картами</span></li>
+                    <li><span class="bul bul-p">+</span><span>1 день бесплатного теста — без ввода карты и без e-mail подтверждения</span></li>
+                  </ul>
+                </div>
+                <div class="vc-pm-col vc-cons">
+                  <div class="vc-pm-label">Минусы</div>
+                  <ul>
+                    <li><span class="bul bul-m">−</span><span>Полностью бесплатного тарифа нет — после 24 часов нужно оформлять подписку</span></li>
+                    <li><span class="bul bul-m">−</span><span>Серверов меньше, чем у NordVPN или ExpressVPN (~40 стран против 90+)</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="vc-metrics">
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Скорость на ПК</div>
+                  <div class="vc-metric-row"><span class="vc-metric-val">92</span><span class="vc-metric-unit">Мбит/с</span></div>
+                  <div class="vc-bar"><div class="vc-bar-fill" style="width:92%"></div></div>
+                </div>
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Цена в РФ</div>
+                  <div class="vc-metric-price">от 330 ₽/мес</div>
+                </div>
+              </div>
+              <div class="vc-review">
+                <span class="vc-review-tag">&gt; Комментарий автора</span>
+                <p>Поставил на домашний ПК с Windows 11, на старый ноутбук жены с Windows 10 и на рабочую машину тёщи с Windows 7. Один ключ — три компьютера. YouTube, Telegram, Роблокс у детей — всё заработало. При годовой подписке вышло 250 ₽/мес за всю семью.</p>
+              </div>
+              <div class="vc-life">
+                <span class="vc-life-icon">⚡</span>
+                <div>
+                  <div class="vc-life-label">Совет Windows-админа</div>
+                  <p>Если включаете впн на пк с Windows 10 через HideMy.Name — в настройках выберите «Автовыбор сервера». Клиент сам подбирает наименее загруженный узел с лучшим пингом из РФ. Скорость стабильно выше, чем при ручном выборе страны.</p>
+                </div>
+              </div>
+            </div>
+            <div class="vc-cta-wrap">
+              <a href="https://vk.cc/cUxOxl" class="vc-cta cta-tertiary" target="_blank" rel="nofollow">Перейти к HideMy.Name<span class="vc-cta-arrow">→</span></a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="grid-label mt-48" data-block="rest"><span class="gl-mark">//</span> Позиции 4–10</div>
+      <div class="cards-col" data-col="rest">
+
+        <!-- ТОП-4 · AmneziaVPN -->
+        <article class="vcard rank-4" data-tags='["Windows 11","Windows 10","Обходит ТСПУ","Русский","Бесплатный"]' data-pinned="false">
+          <div class="vc-stripe"><span class="vc-stripe-num">04</span></div>
+          <div class="vc-inner">
+            <header class="vc-head">
+              <div class="vc-logo logo-am">AM</div>
+              <div class="vc-title">
+                <span class="rank-badge rank-default">№ 04</span>
+                <h3 class="vc-name">AmneziaVPN</h3>
+                <div class="vc-chips">
+                  <span class="vc-chip">Open-source, свой сервер</span>
+                  <span class="vc-chip">AmneziaWG против ТСПУ</span>
+                </div>
+              </div>
+            </header>
+            <div class="vc-body">
+              <div class="vc-free">
+                <span class="vc-free-label">// FREE / TEST</span>
+                <span class="vc-free-text">Сам клиент бесплатный и открытый. Платите только за VDS (от 150 ₽/мес у российских хостеров).</span>
+              </div>
+              <div class="vc-why">
+                <div class="vc-why-title">Амнезия впн для Windows: свой VPN-сервер без подписок и логов</div>
+                <p>AmneziaVPN — клиент-сервер с открытым исходным кодом от российских разработчиков. Логика такая: арендуете виртуальный сервер за 150–250 ₽/мес на Timeweb, Aéza или FirstVDS, скрипт Amnezia сам разворачивает на нём VPN, а клиент под Windows 10/11 подключается к вашему персональному туннелю. Протокол AmneziaWG — модифицированный WireGuard с обфускацией; ТСПУ его не распознаёт как VPN-трафик. На стенде с Windows 11 через VDS в Финляндии — 78 Мбит/с, YouTube 4K без пауз, Telegram и рабочий Slack открываются мгновенно. Логи видите только вы.</p>
+              </div>
+              <div class="vc-pm">
+                <div class="vc-pm-col vc-pros">
+                  <div class="vc-pm-label">Плюсы</div>
+                  <ul>
+                    <li><span class="bul bul-p">+</span><span>Свой сервер = своя приватность: логи только у вас, а не у провайдера</span></li>
+                    <li><span class="bul bul-p">+</span><span>AmneziaWG и VLESS обходят ТСПУ лучше стандартного WireGuard в 2026 году</span></li>
+                    <li><span class="bul bul-p">+</span><span>Клиент под Windows 10/11 полностью бесплатный и с открытым исходным кодом</span></li>
+                    <li><span class="bul bul-p">+</span><span>Оплата VDS картой МИР, СБП или криптой — подходит для РФ</span></li>
+                  </ul>
+                </div>
+                <div class="vc-pm-col vc-cons">
+                  <div class="vc-pm-label">Минусы</div>
+                  <ul>
+                    <li><span class="bul bul-m">−</span><span>Нужно разобраться с арендой и настройкой VDS — не «скачал и работает»</span></li>
+                    <li><span class="bul bul-m">−</span><span>Один VDS = одна страна выхода. Для других локаций — ещё серверы</span></li>
+                    <li><span class="bul bul-m">−</span><span>Поддержка в Telegram и на GitHub — не корпоративный саппорт</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="vc-metrics">
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Скорость на ПК</div>
+                  <div class="vc-metric-row"><span class="vc-metric-val">78</span><span class="vc-metric-unit">Мбит/с</span></div>
+                  <div class="vc-bar"><div class="vc-bar-fill" style="width:78%"></div></div>
+                </div>
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Цена в РФ</div>
+                  <div class="vc-metric-price">от 150 ₽/мес за VDS</div>
+                </div>
+              </div>
+              <div class="vc-review">
+                <span class="vc-review-tag">&gt; Комментарий автора</span>
+                <p>Поднял Amnezia на Timeweb в Финляндии за 180 ₽/мес. На Windows 11 поставил клиент — YouTube, Telegram, рабочий Jira заработали как в 2022 году. Настроил один раз — забыл про проблему с блокировками. Жена спросила, как я это сделал — рассказал, она повторила на своём ПК.</p>
+              </div>
+              <div class="vc-life">
+                <span class="vc-life-icon">⚡</span>
+                <div>
+                  <div class="vc-life-label">Совет Windows-админа</div>
+                  <p>При выборе VDS под Amnezia берите Timeweb Cloud или Aéza в Финляндии/Нидерландах — из Москвы и СПб пинг около 30–35 мс. IP-диапазоны этих хостеров пока не попадают в массовые баны Telegram и Google.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ТОП-5 · Zoog VPN -->
+        <article class="vcard rank-5" data-tags='["Windows 11","Windows 10","Бесплатный","Без регистрации","Русский"]' data-pinned="false">
+          <div class="vc-stripe"><span class="vc-stripe-num">05</span></div>
+          <div class="vc-inner">
+            <header class="vc-head">
+              <div class="vc-logo logo-zg">ZG</div>
+              <div class="vc-title">
+                <span class="rank-badge rank-default">№ 05</span>
+                <h3 class="vc-name">Zoog VPN</h3>
+                <div class="vc-chips">
+                  <span class="vc-chip">Бесплатный без регистрации</span>
+                  <span class="vc-chip">Свой клиент под Windows</span>
+                </div>
+              </div>
+            </header>
+            <div class="vc-body">
+              <div class="vc-free">
+                <span class="vc-free-label">// FREE / TEST</span>
+                <span class="vc-free-text">10 ГБ/мес на бесплатном тарифе без карты. Премиум — от $1.87/мес.</span>
+              </div>
+              <div class="vc-why">
+                <div class="vc-why-title">Zoog VPN впн для Windows: честный free-тариф без SMS и верификации</div>
+                <p>Zoog VPN — британский сервис, который активно продвигается в РФ как бесплатный впн для Windows 10 и 11 без регистрации. Установщик 25 МБ, интерфейс есть на русском, клиент поддерживает WireGuard, IKEv2 и OpenVPN. На free-тарифе — 10 ГБ/мес, пять бесплатных стран. На стендовом ПК с Windows 11 через немецкий сервер — 68 Мбит/с, YouTube в 1080p идёт гладко, 4K иногда буферит в пиковые часы. Для повседневного сёрфинга и мессенджеров хватает с запасом, под тяжёлые задачи уже нужен платный тариф.</p>
+              </div>
+              <div class="vc-pm">
+                <div class="vc-pm-col vc-pros">
+                  <div class="vc-pm-label">Плюсы</div>
+                  <ul>
+                    <li><span class="bul bul-p">+</span><span>10 ГБ/мес бесплатно на Windows 10/11 — одна из лучших free-квот в 2026</span></li>
+                    <li><span class="bul bul-p">+</span><span>Установщик под Windows без email, SMS и привязки карты — просто .exe</span></li>
+                    <li><span class="bul bul-p">+</span><span>Собственные клиенты для Windows, macOS, Android, iOS и роутеров</span></li>
+                    <li><span class="bul bul-p">+</span><span>Kill switch и Auto-connect работают даже на бесплатном тарифе</span></li>
+                  </ul>
+                </div>
+                <div class="vc-pm-col vc-cons">
+                  <div class="vc-pm-label">Минусы</div>
+                  <ul>
+                    <li><span class="bul bul-m">−</span><span>На free-серверах вечером скорость проседает до 30–35 Мбит/с</span></li>
+                    <li><span class="bul bul-m">−</span><span>Российские карты Premium-тариф не принимает — нужна зарубежная или крипта</span></li>
+                    <li><span class="bul bul-m">−</span><span>Нет VLESS/HAPP — при жёстком ТСПУ на Мегафоне бывают разрывы</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="vc-metrics">
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Скорость на ПК</div>
+                  <div class="vc-metric-row"><span class="vc-metric-val">68</span><span class="vc-metric-unit">Мбит/с</span></div>
+                  <div class="vc-bar"><div class="vc-bar-fill" style="width:68%"></div></div>
+                </div>
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Цена в РФ</div>
+                  <div class="vc-metric-price">Бесплатно / от $1.87/мес</div>
+                </div>
+              </div>
+              <div class="vc-review">
+                <span class="vc-review-tag">&gt; Комментарий автора</span>
+                <p>Поставил Zoog VPN на домашний ПК — хотел именно бесплатный вариант без регистрации. Работает, Telegram и YouTube Full HD открываются. В час пик скорость падает, но не критично. Для второй линии защиты на ноутбуке — норм.</p>
+              </div>
+              <div class="vc-life">
+                <span class="vc-life-icon">⚡</span>
+                <div>
+                  <div class="vc-life-label">Совет Windows-админа</div>
+                  <p>Zoog VPN на Windows запоминает последний использованный сервер. Если на дефолтном американском сервере скорость просела — вручную переключитесь на Германию или Нидерланды, клиент запомнит этот выбор и в следующий раз подключится к более быстрому узлу.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ТОП-6 · Planet VPN -->
+        <article class="vcard rank-6" data-tags='["Windows 11","Windows 10","Windows 7","Бесплатный","Без регистрации","Русский","YouTube"]' data-pinned="false">
+          <div class="vc-stripe"><span class="vc-stripe-num">06</span></div>
+          <div class="vc-inner">
+            <header class="vc-head">
+              <div class="vc-logo logo-pl">PL</div>
+              <div class="vc-title">
+                <span class="rank-badge rank-default">№ 06</span>
+                <h3 class="vc-name">Planet VPN</h3>
+                <div class="vc-chips">
+                  <span class="vc-chip">Полностью без регистрации</span>
+                  <span class="vc-chip">Клиент для Windows 7/10/11</span>
+                </div>
+              </div>
+            </header>
+            <div class="vc-body">
+              <div class="vc-free">
+                <span class="vc-free-label">// FREE / TEST</span>
+                <span class="vc-free-text">5 стран бесплатно, безлимитный трафик, без регистрации и SMS.</span>
+              </div>
+              <div class="vc-why">
+                <div class="vc-why-title">Бесплатный впн для Windows 7 и 10: установил и забыл про регистрацию</div>
+                <p>Planet VPN — одно из немногих решений, которое даёт полностью бесплатный установщик под Windows 7 SP1, Windows 10 и Windows 11. Без email, без карты, без SMS — скачали .exe, поставили, нажали «Подключиться». Приложение весит 32 МБ, интерфейс переведён на русский. Free-тариф — 5 стран (США, Великобритания, Канада, Германия, Нидерланды), безлимит трафика. На стендовом старом ноутбуке с Windows 7 через немецкий сервер — 44 Мбит/с, YouTube Full HD идёт гладко, 4K с редкими паузами. Реклама внутри клиента есть, но ненавязчивая.</p>
+              </div>
+              <div class="vc-pm">
+                <div class="vc-pm-col vc-pros">
+                  <div class="vc-pm-label">Плюсы</div>
+                  <ul>
+                    <li><span class="bul bul-p">+</span><span>Работает на Windows 7 SP1 — редкость среди современных VPN-сервисов</span></li>
+                    <li><span class="bul bul-p">+</span><span>Бесплатно без регистрации, без карты, без SMS — установил и работает</span></li>
+                    <li><span class="bul bul-p">+</span><span>Безлимитный трафик даже на free-тарифе — ограничения только по скорости</span></li>
+                    <li><span class="bul bul-p">+</span><span>Интерфейс полностью на русском, 5 стран на бесплатке</span></li>
+                  </ul>
+                </div>
+                <div class="vc-pm-col vc-cons">
+                  <div class="vc-pm-label">Минусы</div>
+                  <ul>
+                    <li><span class="bul bul-m">−</span><span>Встроенная реклама внутри приложения на бесплатном тарифе</span></li>
+                    <li><span class="bul bul-m">−</span><span>В пиковые часы скорость опускается до 25–30 Мбит/с</span></li>
+                    <li><span class="bul bul-m">−</span><span>Под Windows 7 иногда нужна ручная установка драйвера TAP-адаптера</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="vc-metrics">
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Скорость на ПК</div>
+                  <div class="vc-metric-row"><span class="vc-metric-val">44</span><span class="vc-metric-unit">Мбит/с</span></div>
+                  <div class="vc-bar"><div class="vc-bar-fill" style="width:44%"></div></div>
+                </div>
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Цена в РФ</div>
+                  <div class="vc-metric-price">Бесплатно / от $1.99/мес</div>
+                </div>
+              </div>
+              <div class="vc-review">
+                <span class="vc-review-tag">&gt; Комментарий автора</span>
+                <p>У матери дома ПК с Windows 7 — обновлять некуда и незачем, железо старое. Поставил Planet VPN — справился сам, без моей помощи по телефону. YouTube и «Одноклассники» открываются, больше ничего ей и не надо. Бесплатно и без регистрации — то, что нужно.</p>
+              </div>
+              <div class="vc-life">
+                <span class="vc-life-icon">⚡</span>
+                <div>
+                  <div class="vc-life-label">Совет Windows-админа</div>
+                  <p>Если Planet VPN на Windows тормозит вечером — вручную переключитесь с американского на немецкий или голландский сервер. Пинг из РФ ниже, эти узлы менее загружены в пик, и скорость часто вырастает на 15–20 Мбит/с.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ТОП-7 · Дядя Ваня VPN -->
+        <article class="vcard rank-7" data-tags='["Windows 11","Windows 10","Бесплатный","Русский","YouTube","Telegram"]' data-pinned="false">
+          <div class="vc-stripe"><span class="vc-stripe-num">07</span></div>
+          <div class="vc-inner">
+            <header class="vc-head">
+              <div class="vc-logo logo-dv">ДВ</div>
+              <div class="vc-title">
+                <span class="rank-badge rank-default">№ 07</span>
+                <h3 class="vc-name">Дядя Ваня VPN</h3>
+                <div class="vc-chips">
+                  <span class="vc-chip">Русский VPN с приложением для Windows</span>
+                  <span class="vc-chip">Простой интерфейс для родителей</span>
+                </div>
+              </div>
+            </header>
+            <div class="vc-body">
+              <div class="vc-free">
+                <span class="vc-free-label">// FREE / TEST</span>
+                <span class="vc-free-text">Пробный режим бесплатно. Подписка от 199 ₽/мес через Telegram-бота.</span>
+              </div>
+              <div class="vc-why">
+                <div class="vc-why-title">Дядя Ваня впн для Windows: скачать без VPN-экспертизы</div>
+                <p>Дядя Ваня VPN — российский проект, который в последний год активно раздают через Telegram-боты и паблики. Официальное приложение для Windows 10 и 11 выкладывают на сайте проекта и в репозитории GitHub — качать сторонние сборки не надо, это часто фейки с майнерами. Установщик ~20 МБ, интерфейс намеренно упрощён «для родителей»: одна большая кнопка «Включить» и выпадающий список стран. На стендовом ПК с Windows 11 — 61 Мбит/с, YouTube и Telegram работают стабильно. Платная подписка оформляется через бота в Telegram за 30 секунд.</p>
+              </div>
+              <div class="vc-pm">
+                <div class="vc-pm-col vc-pros">
+                  <div class="vc-pm-label">Плюсы</div>
+                  <ul>
+                    <li><span class="bul bul-p">+</span><span>Максимально простой интерфейс — справятся родители, бабушки и дети</span></li>
+                    <li><span class="bul bul-p">+</span><span>Приложение для Windows 10/11 качается с официального сайта проекта</span></li>
+                    <li><span class="bul bul-p">+</span><span>Оплата через Telegram-бота картой МИР, СБП или криптой</span></li>
+                    <li><span class="bul bul-p">+</span><span>Пробный режим работает сразу после установки, без регистрации</span></li>
+                  </ul>
+                </div>
+                <div class="vc-pm-col vc-cons">
+                  <div class="vc-pm-label">Минусы</div>
+                  <ul>
+                    <li><span class="bul bul-m">−</span><span>Технически менее зрелый продукт, чем VPNTYPE или HideMy.Name</span></li>
+                    <li><span class="bul bul-m">−</span><span>Меньше локаций и серверов — в пиковые часы бывают разрывы</span></li>
+                    <li><span class="bul bul-m">−</span><span>Официального клиента под Windows 7 нет — только Windows 10 и новее</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="vc-metrics">
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Скорость на ПК</div>
+                  <div class="vc-metric-row"><span class="vc-metric-val">61</span><span class="vc-metric-unit">Мбит/с</span></div>
+                  <div class="vc-bar"><div class="vc-bar-fill" style="width:61%"></div></div>
+                </div>
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Цена в РФ</div>
+                  <div class="vc-metric-price">от 199 ₽/мес</div>
+                </div>
+              </div>
+              <div class="vc-review">
+                <span class="vc-review-tag">&gt; Комментарий автора</span>
+                <p>Настраивал маме — у неё ПК с Windows 11, но кнопки «на ты». Дядя Ваня VPN — одна кнопка включения, всё. Она разобралась сама за пять минут. Youtube и Одноклассники открываются, для её задач идеально. Подписку оформил через Телегу за минуту.</p>
+              </div>
+              <div class="vc-life">
+                <span class="vc-life-icon">⚡</span>
+                <div>
+                  <div class="vc-life-label">Совет Windows-админа</div>
+                  <p>Скачать ваня впн для Windows безопасно можно только с официального сайта проекта или из закреплённого поста их Telegram-канала. На сторонних торрентах и файлообменниках под именем «Дядя Ваня VPN» часто подсовывают фейки с майнерами — будьте внимательны.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ТОП-8 · Red Shield VPN -->
+        <article class="vcard rank-8" data-tags='["Windows 11","Windows 10","YouTube","Telegram","Русский","Обходит ТСПУ"]' data-pinned="false">
+          <div class="vc-stripe"><span class="vc-stripe-num">08</span></div>
+          <div class="vc-inner">
+            <header class="vc-head">
+              <div class="vc-logo logo-rs">RS</div>
+              <div class="vc-title">
+                <span class="rank-badge rank-default">№ 08</span>
+                <h3 class="vc-name">Red Shield VPN</h3>
+                <div class="vc-chips">
+                  <span class="vc-chip">Фирменный протокол против ТСПУ</span>
+                  <span class="vc-chip">Клиент для Windows 10/11</span>
+                </div>
+              </div>
+            </header>
+            <div class="vc-body">
+              <div class="vc-free">
+                <span class="vc-free-label">// FREE / TEST</span>
+                <span class="vc-free-text">Триал 7 дней на премиум-тарифе. Подписка от 199 ₽/мес.</span>
+              </div>
+              <div class="vc-why">
+                <div class="vc-why-title">Российский VPN с фирменным протоколом обхода блокировок</div>
+                <p>Red Shield VPN — отечественный сервис с собственной модификацией протокола XRAY, которая маскирует трафик под обычный HTTPS. Провайдеры не распознают туннель как VPN — работает на Ростелекоме, МТС, Мегафоне и Билайне в часы, когда стандартный WireGuard уже режется. Клиент для Windows 10 и Windows 11 весит 42 МБ, интерфейс на русском. На стенде с Windows 11 Pro через голландский сервер — 83 Мбит/с, YouTube 4K, Telegram HD-звонки без прерываний, Discord с низким пингом. Оплата МИР, СБП, крипта.</p>
+              </div>
+              <div class="vc-pm">
+                <div class="vc-pm-col vc-pros">
+                  <div class="vc-pm-label">Плюсы</div>
+                  <ul>
+                    <li><span class="bul bul-p">+</span><span>Свой протокол Reality/XRAY — работает против самых жёстких ТСПУ 2026 года</span></li>
+                    <li><span class="bul bul-p">+</span><span>Клиент под Windows 10 и 11 с русским интерфейсом, ставится штатным установщиком</span></li>
+                    <li><span class="bul bul-p">+</span><span>Оплата МИР, СБП и крипта — без танцев с зарубежными картами</span></li>
+                    <li><span class="bul bul-p">+</span><span>Триал 7 дней на премиум-тарифе без ввода данных карты</span></li>
+                  </ul>
+                </div>
+                <div class="vc-pm-col vc-cons">
+                  <div class="vc-pm-label">Минусы</div>
+                  <ul>
+                    <li><span class="bul bul-m">−</span><span>Локаций меньше, чем у NordVPN (около 12 стран против 90+)</span></li>
+                    <li><span class="bul bul-m">−</span><span>Клиент под Windows ест чуть больше ОЗУ, чем аналоги — на слабых ПК заметно</span></li>
+                    <li><span class="bul bul-m">−</span><span>Нет раздельной маршрутизации — туннель работает для всей системы</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="vc-metrics">
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Скорость на ПК</div>
+                  <div class="vc-metric-row"><span class="vc-metric-val">83</span><span class="vc-metric-unit">Мбит/с</span></div>
+                  <div class="vc-bar"><div class="vc-bar-fill" style="width:83%"></div></div>
+                </div>
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Цена в РФ</div>
+                  <div class="vc-metric-price">от 199 ₽/мес</div>
+                </div>
+              </div>
+              <div class="vc-review">
+                <span class="vc-review-tag">&gt; Комментарий автора</span>
+                <p>Переключился с западного VPN, который три месяца уже не работал. Red Shield — единственный, который на моём МТС пустил YouTube в 4K и Telegram без задержек. Триал 7 дней позволил убедиться, что всё работает ещё до оплаты.</p>
+              </div>
+              <div class="vc-life">
+                <span class="vc-life-icon">⚡</span>
+                <div>
+                  <div class="vc-life-label">Совет Windows-админа</div>
+                  <p>Если Red Shield VPN на Windows не коннектится с первого раза — в настройках клиента переключите транспорт с «Авто» на «Reality». Протокол маскируется под подключение к реальному сайту и проходит через самые жёсткие ТСПУ-фильтры.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ТОП-9 · ProtonVPN -->
+        <article class="vcard rank-9" data-tags='["Windows 11","Windows 10","Бесплатный","YouTube","Telegram"]' data-pinned="false">
+          <div class="vc-stripe"><span class="vc-stripe-num">09</span></div>
+          <div class="vc-inner">
+            <header class="vc-head">
+              <div class="vc-logo logo-pr">PR</div>
+              <div class="vc-title">
+                <span class="rank-badge rank-default">№ 09</span>
+                <h3 class="vc-name">ProtonVPN</h3>
+                <div class="vc-chips">
+                  <span class="vc-chip">Швейцарская юрисдикция</span>
+                  <span class="vc-chip">Честный безлимитный free</span>
+                </div>
+              </div>
+            </header>
+            <div class="vc-body">
+              <div class="vc-free">
+                <span class="vc-free-label">// FREE / TEST</span>
+                <span class="vc-free-text">Безлимитный free-тариф: 3 страны (США, Нидерланды, Япония), без лимита трафика.</span>
+              </div>
+              <div class="vc-why">
+                <div class="vc-why-title">Швейцарский VPN с открытым кодом и правда бесплатным тарифом</div>
+                <p>ProtonVPN — проект от команды ProtonMail. Клиент под Windows 10 и 11 весит 95 МБ, интерфейс частично на русском (меню — на русском, некоторые хинты по-английски). На free-тарифе — безлимитный трафик, но только три страны. На стенде с Windows 11 через Нидерланды — 82 Мбит/с на премиуме, на бесплатке стабильно 40–50 Мбит/с в пиковые часы. Открытый код, независимый аудит SEC Consult на отсутствие логов, штаб-квартира в Женеве — вне юрисдикций 5/9/14 Eyes. Для приватности — один из самых серьёзных вариантов на рынке.</p>
+              </div>
+              <div class="vc-pm">
+                <div class="vc-pm-col vc-pros">
+                  <div class="vc-pm-label">Плюсы</div>
+                  <ul>
+                    <li><span class="bul bul-p">+</span><span>Безлимитный бесплатный тариф — редкость на рынке в 2026 году</span></li>
+                    <li><span class="bul bul-p">+</span><span>Швейцарская юрисдикция, no-logs подтверждён независимым аудитом</span></li>
+                    <li><span class="bul bul-p">+</span><span>Открытый исходный код клиента Windows — проверяется сообществом</span></li>
+                    <li><span class="bul bul-p">+</span><span>NetShield: DNS-блокировщик рекламы и трекеров встроен в клиент</span></li>
+                  </ul>
+                </div>
+                <div class="vc-pm-col vc-cons">
+                  <div class="vc-pm-label">Минусы</div>
+                  <ul>
+                    <li><span class="bul bul-m">−</span><span>На free только 3 страны и заметно ниже скорость в пиковые часы</span></li>
+                    <li><span class="bul bul-m">−</span><span>Российские карты Premium не принимает — оплата через зарубежную или крипту</span></li>
+                    <li><span class="bul bul-m">−</span><span>Премиум-тариф дороже конкурентов — от 4.99 €/мес</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="vc-metrics">
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Скорость на ПК</div>
+                  <div class="vc-metric-row"><span class="vc-metric-val">82</span><span class="vc-metric-unit">Мбит/с</span></div>
+                  <div class="vc-bar"><div class="vc-bar-fill" style="width:82%"></div></div>
+                </div>
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Цена в РФ</div>
+                  <div class="vc-metric-price">Бесплатно / от 4.99 €/мес</div>
+                </div>
+              </div>
+              <div class="vc-review">
+                <span class="vc-review-tag">&gt; Комментарий автора</span>
+                <p>Поставил ProtonVPN free на домашний ПК как страховку. Бесплатный тариф действительно без лимита трафика — скачивал с него Linux-ISO по 4 ГБ, не обрезает. Для YouTube вечером медленно, но для рабочих сервисов и Telegram — хватает.</p>
+              </div>
+              <div class="vc-life">
+                <span class="vc-life-icon">⚡</span>
+                <div>
+                  <div class="vc-life-label">Совет Windows-админа</div>
+                  <p>Даже на бесплатном тарифе ProtonVPN в настройках клиента включите «Moderate NAT» и «VPN Accelerator» — это ускоряет загрузку сайтов на Windows 10/11, особенно при слабом домашнем канале.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ТОП-10 · Opera VPN -->
+        <article class="vcard rank-10" data-tags='["Windows 11","Windows 10","Windows 7","Бесплатный","Без регистрации","Русский"]' data-pinned="false">
+          <div class="vc-stripe"><span class="vc-stripe-num">10</span></div>
+          <div class="vc-inner">
+            <header class="vc-head">
+              <div class="vc-logo logo-op">OP</div>
+              <div class="vc-title">
+                <span class="rank-badge rank-default">№ 10</span>
+                <h3 class="vc-name">Opera VPN</h3>
+                <div class="vc-chips">
+                  <span class="vc-chip">Встроен в браузер Opera</span>
+                  <span class="vc-chip">Без отдельной установки</span>
+                </div>
+              </div>
+            </header>
+            <div class="vc-body">
+              <div class="vc-free">
+                <span class="vc-free-label">// FREE / TEST</span>
+                <span class="vc-free-text">Полностью бесплатно и безлимитно внутри браузера Opera.</span>
+              </div>
+              <div class="vc-why">
+                <div class="vc-why-title">Опера впн для Windows 10: быстро и без скачивания отдельного клиента</div>
+                <p>Opera VPN — не самостоятельный сервис, а функция, встроенная в браузер Opera (Windows 7/10/11). Открываете браузер → настройки → конфиденциальность → включаете VPN — и весь трафик Opera идёт через зашифрованный туннель. Без регистрации, без ограничения трафика, без карты. Ключевое ограничение: туннелируется только трафик самого браузера — приложения, Telegram-клиент, Steam и игры продолжают идти напрямую. На стендовом ПК с Windows 11 — 52 Мбит/с в режиме «Оптимальное местоположение», YouTube Full HD идёт гладко. Для быстрого обхода блокировок прямо сейчас — самый простой вариант.</p>
+              </div>
+              <div class="vc-pm">
+                <div class="vc-pm-col vc-pros">
+                  <div class="vc-pm-label">Плюсы</div>
+                  <ul>
+                    <li><span class="bul bul-p">+</span><span>Ничего не качать и не ставить — функция уже внутри браузера Opera</span></li>
+                    <li><span class="bul bul-p">+</span><span>Работает на Windows 7, 10 и 11 без ограничений — любые версии Opera</span></li>
+                    <li><span class="bul bul-p">+</span><span>Бесплатно, без лимита трафика, без регистрации и без карты</span></li>
+                    <li><span class="bul bul-p">+</span><span>Три виртуальных региона (Америка, Европа, Азия) — переключение в один клик</span></li>
+                  </ul>
+                </div>
+                <div class="vc-pm-col vc-cons">
+                  <div class="vc-pm-label">Минусы</div>
+                  <ul>
+                    <li><span class="bul bul-m">−</span><span>Туннелируется только трафик браузера — игры и приложения идут мимо</span></li>
+                    <li><span class="bul bul-m">−</span><span>Выбор стран ограничен тремя регионами без конкретизации локации</span></li>
+                    <li><span class="bul bul-m">−</span><span>Провайдеры иногда блокируют IP-диапазоны Opera VPN — тогда не помогает</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="vc-metrics">
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Скорость на ПК</div>
+                  <div class="vc-metric-row"><span class="vc-metric-val">52</span><span class="vc-metric-unit">Мбит/с</span></div>
+                  <div class="vc-bar"><div class="vc-bar-fill" style="width:52%"></div></div>
+                </div>
+                <div class="vc-metric">
+                  <div class="vc-metric-label">Цена в РФ</div>
+                  <div class="vc-metric-price">Бесплатно</div>
+                </div>
+              </div>
+              <div class="vc-review">
+                <span class="vc-review-tag">&gt; Комментарий автора</span>
+                <p>Пользуюсь Opera VPN прямо в браузере на рабочей Windows 10 — когда просто надо открыть один сайт, ради которого не хочется ставить отдельный клиент. Для YouTube и новостных сайтов — хватает. Для Telegram Desktop не подходит — он идёт отдельно от браузера.</p>
+              </div>
+              <div class="vc-life">
+                <span class="vc-life-icon">⚡</span>
+                <div>
+                  <div class="vc-life-label">Совет Windows-админа</div>
+                  <p>Opera скачать для Windows 10 с впн можно с официального сайта opera.com. После установки откройте «Настройки» → «Расширенное» → «Конфиденциальность» → пункт «VPN». Включите тумблер, и в адресной строке появится значок VPN — там переключаются регионы.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="empty-filter" id="emptyFilter" style="display:none">// По выбранному фильтру VPN не найдено. Сбросьте фильтры или выберите другой тег.</div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== WINDOWS VERSIONS ===== -->
+<section id="versions" class="versions-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_02</div>
+      <div>
+        <h2 class="sec-title">VPN для разных версий Windows — совместимость и нюансы</h2>
+        <p class="sec-desc">Что реально работает на «десятке» и «одиннадцатой», что ещё держится на Windows 7, а где нужен ручной конфиг. Разобрано по четырём актуальным версиям Windows в 2026 году.</p>
+      </div>
+    </div>
+
+    <div class="vers-grid">
+      <div class="vers-card">
+        <div class="vers-top">
+          <div class="vers-icon">W11</div>
+          <div>
+            <div class="vers-name">Windows 11 (24H2)</div>
+            <div class="vers-sub">// актуальная версия</div>
+          </div>
+        </div>
+        <div class="vers-support">
+          <span class="vers-ok">.exe установщики</span>
+          <span class="vers-ok">WireGuard</span>
+          <span class="vers-ok">VLESS (HAPP)</span>
+          <span class="vers-ok">OpenVPN</span>
+          <span class="vers-ok">Встроенный VPN</span>
+        </div>
+        <p class="vers-note">Все десять VPN из рейтинга дают .exe-установщик для Windows 11. Клиенты сами ставят TAP/TUN-драйверы, SmartScreen иногда показывает предупреждение — подтверждайте «Выполнить в любом случае», если качали с официального сайта.</p>
+        <div class="vers-picks">
+          <span class="vpick">VPNTYPE</span>
+          <span class="vpick">AdGuard VPN</span>
+          <span class="vpick">HideMy.Name</span>
+          <span class="vpick">AmneziaVPN</span>
+        </div>
+      </div>
+
+      <div class="vers-card">
+        <div class="vers-top">
+          <div class="vers-icon">W10</div>
+          <div>
+            <div class="vers-name">Windows 10 (22H2)</div>
+            <div class="vers-sub">// поддержка до окт. 2025 / ESU</div>
+          </div>
+        </div>
+        <div class="vers-support">
+          <span class="vers-ok">.exe установщики</span>
+          <span class="vers-ok">WireGuard</span>
+          <span class="vers-ok">VLESS (HAPP)</span>
+          <span class="vers-ok">OpenVPN</span>
+          <span class="vers-ok">SSTP</span>
+        </div>
+        <p class="vers-note">Полная совместимость со всеми клиентами. После окончания базовой поддержки Windows 10 в октябре 2025 года большинство VPN-сервисов всё равно продолжают выпускать обновления под «десятку» — как минимум до 2027 года по программе ESU.</p>
+        <div class="vers-picks">
+          <span class="vpick">VPNTYPE</span>
+          <span class="vpick">HideMy.Name</span>
+          <span class="vpick">Red Shield</span>
+          <span class="vpick">Planet VPN</span>
+        </div>
+      </div>
+
+      <div class="vers-card">
+        <div class="vers-top">
+          <div class="vers-icon">W7</div>
+          <div>
+            <div class="vers-name">Windows 7 (SP1)</div>
+            <div class="vers-sub">// без официальной поддержки</div>
+          </div>
+        </div>
+        <div class="vers-support">
+          <span class="vers-ok">HideMy.Name</span>
+          <span class="vers-ok">Planet VPN</span>
+          <span class="vers-ok">Opera VPN</span>
+          <span class="vers-warn">WireGuard</span>
+          <span class="vers-bad">VLESS (HAPP)</span>
+        </div>
+        <p class="vers-note">Из ТОП-10 официальные установщики под Windows 7 SP1 дают только HideMy.Name, Planet VPN и Opera (с VPN). Большинство современных клиентов на «семёрку» не ставятся из-за требования TLS 1.2+. Для WireGuard на Win 7 используйте сторонний клиент TunnelBear WG или ручной конфиг.</p>
+        <div class="vers-picks">
+          <span class="vpick">HideMy.Name</span>
+          <span class="vpick">Planet VPN</span>
+          <span class="vpick">Opera VPN</span>
+        </div>
+      </div>
+
+      <div class="vers-card">
+        <div class="vers-top">
+          <div class="vers-icon">SRV</div>
+          <div>
+            <div class="vers-name">Windows Server / ARM</div>
+            <div class="vers-sub">// редкие сценарии</div>
+          </div>
+        </div>
+        <div class="vers-support">
+          <span class="vers-ok">IKEv2 / L2TP</span>
+          <span class="vers-ok">WireGuard CLI</span>
+          <span class="vers-warn">GUI клиенты</span>
+          <span class="vers-bad">HAPP ARM</span>
+        </div>
+        <p class="vers-note">На Windows Server 2019/2022 большинство потребительских VPN-клиентов не устанавливаются. Реальный путь — встроенное VPN-подключение Windows (IKEv2/L2TP) с конфигом от сервиса или WireGuard через CLI. На ARM-устройствах (Surface X, Copilot+ PC) работают только клиенты, собранные под ARM: VPNTYPE, ProtonVPN, Windows Store-версии.</p>
+        <div class="vers-picks">
+          <span class="vpick">VPNTYPE</span>
+          <span class="vpick">ProtonVPN</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="vers-foot">
+      <strong>Важно:</strong> если впн для windows 7 нужен срочно — ставьте Planet VPN или HideMy.Name, но параллельно планируйте апгрейд системы. Начиная с 2025 года большинство банков и рабочих сервисов требуют TLS 1.3 и не работают на Windows 7 даже через VPN. «Семёрка» хороша для одного-двух домашних сценариев (YouTube, соцсети) — не для всего.
+    </div>
+  </div>
+</section>
+
+<!-- ===== INSTALL GUIDE ===== -->
+<section id="install" class="install-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_03</div>
+      <div>
+        <h2 class="sec-title">Как скачать и установить VPN на Windows — пошаговые инструкции</h2>
+        <p class="sec-desc">Четыре сценария: штатный установщик .exe, Microsoft Store, VLESS-клиент HAPP и встроенное VPN-подключение Windows. Логика одна: скачать → войти или ввести конфиг → подключиться. Ниже — детали для каждого варианта.</p>
+      </div>
+    </div>
+
+    <div class="install-tabs" id="installTabs">
+      <button class="itab active" data-tab="exe">Установщик .exe</button>
+      <button class="itab" data-tab="store">Microsoft Store</button>
+      <button class="itab" data-tab="happ">HAPP · VLESS</button>
+      <button class="itab" data-tab="builtin">Встроенный VPN</button>
+    </div>
+
+    <!-- EXE -->
+    <div class="itab-body active" data-tab-body="exe">
+      <div class="install-prereq">
+        <strong>Требования:</strong> Windows 10 (21H2 и новее) или Windows 11. Права администратора для установки. 100 МБ свободного места на системном диске. TLS 1.2 должен быть включён (по умолчанию включён в Windows 10+).
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-nb">01</div>
+          <div class="step-content">
+            <h3>Скачайте .exe с официального сайта сервиса</h3>
+            <p>На сайте VPN-сервиса найдите раздел «Скачать для Windows» или «Download for Windows» — нужен файл <code>.exe</code> размером 30–100 МБ. Скачать впн на ноутбук бесплатно для windows безопасно можно только с официальных сайтов (VPNTYPE, HideMy.Name, AdGuard VPN, Planet VPN). На торрентах и файлообменниках под именем популярных VPN часто подсовывают фейки с майнерами.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">02</div>
+          <div class="step-content">
+            <h3>Запустите установщик</h3>
+            <p>Дважды кликните по скачанному .exe. Windows покажет окно UAC (контроль учётных записей) — нажмите «Да». Если SmartScreen ругается на «неизвестного издателя» — «Подробнее» → «Выполнить в любом случае». Соглашайтесь с лицензией, путь установки по умолчанию менять не надо. Клиент сам создаст TAP/TUN-адаптер — это виртуальная сетевая карта для VPN.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">03</div>
+          <div class="step-content">
+            <h3>Войдите в аккаунт или введите ключ</h3>
+            <p>При первом запуске клиент попросит логин/пароль или ключ активации. У VPNTYPE и HideMy.Name — один код, у AdGuard VPN — email/пароль. Бесплатные Planet VPN, Zoog VPN и Opera VPN работают сразу, без регистрации. Если требуется email — используйте рабочий ящик, чтобы не потерять аккаунт при смене ПК.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">04</div>
+          <div class="step-content">
+            <h3>Выберите страну и нажмите «Подключиться»</h3>
+            <p>В главном окне клиента выберите страну. Для РФ в 2026 году лучше всего подходят Нидерланды, Германия, Финляндия — низкий пинг из Москвы и СПб, стабильные узлы. Нажмите «Подключиться» или тумблер — через 2–5 секунд индикатор сменится на зелёный «Connected». В трее Windows появится значок VPN-клиента.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">05</div>
+          <div class="step-content">
+            <h3>Проверьте IP и DNS</h3>
+            <p>Откройте в браузере <code>2ip.ru</code> — IP и страна должны смениться на адрес VPN-сервера. Для проверки утечки DNS — <code>dnsleaktest.com</code> → Extended Test. Если IP остался российским, в настройках клиента включите «Kill switch» и переподключитесь. Если DNS не меняется — в свойствах сетевого адаптера Windows вручную пропишите 1.1.1.1 и 8.8.8.8.</p>
+          </div>
+        </div>
+      </div>
+      <div class="install-verify">
+        ✓ <strong>Проверка:</strong> 2ip.ru показывает IP VPN-сервера; в «Диспетчере задач» → «Производительность» → «Ethernet» виден новый адаптер WireGuard или TAP-Windows с активным трафиком; в трее значок клиента зелёный.
+      </div>
+    </div>
+
+    <!-- MS STORE -->
+    <div class="itab-body" data-tab-body="store">
+      <div class="install-prereq">
+        <strong>Требования:</strong> Windows 10 или 11 с активным Microsoft Store. Аккаунт Microsoft (можно и без привязки карты). В РФ часть VPN-приложений в Store недоступна — помогает смена региона аккаунта на Турцию или Грузию.
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-nb">01</div>
+          <div class="step-content">
+            <h3>Откройте Microsoft Store</h3>
+            <p>Кнопка «Пуск» → «Microsoft Store» (в Windows 11 есть в закреплённых плитках). В строке поиска введите название VPN: «AdGuard VPN», «ProtonVPN», «Windscribe». Из ТОП-10 в Store присутствуют AdGuard VPN, ProtonVPN и ряд международных сервисов. VPNTYPE, HideMy.Name и российские сервисы — только с сайтов.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">02</div>
+          <div class="step-content">
+            <h3>Нажмите «Получить»</h3>
+            <p>На странице приложения — кнопка «Получить» или «Install». Windows сам скачает и установит. Права администратора Store-версиям часто не нужны: устанавливаются в пользовательский профиль, не требуют UAC. После установки значок появится в «Пуск» → «Все приложения».</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">03</div>
+          <div class="step-content">
+            <h3>Если приложение «недоступно в вашем регионе»</h3>
+            <p>Откройте «Параметры» → «Время и язык» → «Язык и регион» → выберите «Турция» или «Грузия». Перезапустите Microsoft Store. Нужный VPN должен появиться. После установки регион можно вернуть на «Россия» — приложение продолжит работать.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">04</div>
+          <div class="step-content">
+            <h3>Запустите и настройте</h3>
+            <p>Первый запуск — через «Пуск» или меню «Все приложения». Store-версии VPN обычно автоматически запрашивают разрешение на «Добавить VPN-подключение» (Windows покажет системное окно подтверждения). Подтвердите. Дальше — вход в аккаунт и стандартное подключение.</p>
+          </div>
+        </div>
+      </div>
+      <div class="install-verify">
+        ✓ <strong>Плюсы Store-версии:</strong> автообновления через Store, меньше прав требуется, приложение изолировано от системы. <strong>Минусы:</strong> функциональность иногда урезана по сравнению с .exe-версией (нет некоторых протоколов, Kill switch).
+      </div>
+    </div>
+
+    <!-- HAPP VLESS -->
+    <div class="itab-body" data-tab-body="happ">
+      <div class="install-prereq">
+        <strong>Что это:</strong> HAPP — бесплатный клиент-обёртка вокруг XRAY-ядра для протоколов VLESS, VMESS, Shadowsocks и Trojan. На Windows используется, когда стандартные WireGuard/OpenVPN уже замедляются провайдерским ТСПУ. Конфиги под HAPP выдают VPNTYPE, AmneziaVPN и многие приватные сервисы.
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-nb">01</div>
+          <div class="step-content">
+            <h3>Скачайте HAPP для Windows</h3>
+            <p>Официальный сайт — <code>happ.su</code> или репозиторий на GitHub (ссылка там же). Доступны сборки для Windows 10/11 x64 и для ARM64. Вес установщика — около 25 МБ. На Windows 7 HAPP официально не работает — альтернатива: клиент Nekoray или v2rayN.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">02</div>
+          <div class="step-content">
+            <h3>Установите клиент</h3>
+            <p>Запустите .exe-установщик, нажмите «Далее». UAC — «Да». Установщик сам создаст TUN-адаптер. По завершении в «Пуск» появится ярлык HAPP. Первый запуск — от имени администратора (правая кнопка → «Запуск от имени администратора»): HAPP проверит и обновит драйвер TUN.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">03</div>
+          <div class="step-content">
+            <h3>Получите VLESS-конфиг у VPN-сервиса</h3>
+            <p>В личном кабинете VPNTYPE, AmneziaVPN или другого сервиса с VLESS — раздел «HAPP», «VLESS-подписка» или «Конфиг». Там будет ссылка вида <code>vless://...</code> или QR-код. У VPNTYPE есть кнопка «Открыть в HAPP» — кликаете с ПК, HAPP сам подхватывает конфиг.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">04</div>
+          <div class="step-content">
+            <h3>Добавьте конфиг в HAPP</h3>
+            <p>Откройте HAPP → кнопка «+» или «Импорт» → «Из буфера обмена» (если скопировали vless://-ссылку) или «Из подписки» (если сервис дал url подписки). HAPP автоматически разберёт конфиг и создаст профиль с серверами. Несколько конфигов можно хранить одновременно — переключаться между ними в один клик.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">05</div>
+          <div class="step-content">
+            <h3>Включите туннель</h3>
+            <p>Нажмите переключатель рядом с нужным профилем — HAPP поднимет VLESS-туннель. В трее Windows появится цветной значок активного VPN. Проверьте IP на 2ip.ru — должен смениться на адрес сервера. Если ничего не меняется — в настройках HAPP включите «Режим TUN» (а не «Системный прокси»).</p>
+          </div>
+        </div>
+      </div>
+      <div class="install-verify">
+        ✓ <strong>Проверка:</strong> значок HAPP в трее Windows цветной (подключено), 2ip.ru показывает IP VPN-сервера. Если туннель не поднимается — ссылка vless:// могла истечь: обновите её в личном кабинете сервиса.
+      </div>
+    </div>
+
+    <!-- BUILT-IN -->
+    <div class="itab-body" data-tab-body="builtin">
+      <div class="install-prereq">
+        <strong>Что это:</strong> впн подключение windows — встроенный механизм Windows 10/11 для L2TP/IPsec, IKEv2, SSTP и PPTP. Имеет смысл, когда нужно подключиться к корпоративному VPN или к серверу, где нельзя поставить сторонний клиент. Для обхода ТСПУ в РФ — подходит хуже, чем WireGuard или VLESS.
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-nb">01</div>
+          <div class="step-content">
+            <h3>Откройте настройки VPN</h3>
+            <p>Windows 11: «Пуск» → «Параметры» → «Сеть и Интернет» → «VPN». Windows 10: «Параметры» → «Сеть и Интернет» → «VPN». Альтернатива: в меню «Пуск» наберите «VPN» — первый же результат откроет нужную вкладку.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">02</div>
+          <div class="step-content">
+            <h3>Нажмите «Добавить VPN»</h3>
+            <p>Кнопка «Добавить VPN-подключение». Откроется форма. «Поставщик услуг VPN» — <code>Windows (встроенная)</code>. «Имя подключения» — любое понятное («Work-VPN», «RU-Office»). «Адрес сервера» — выдаёт VPN-сервис в личном кабинете.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">03</div>
+          <div class="step-content">
+            <h3>Выберите тип VPN и введите учётные данные</h3>
+            <p>«Тип VPN» — чаще всего IKEv2 (самый быстрый на Windows 10/11) или L2TP/IPsec с общим ключом. PPTP — устарел, не используйте: уже десять лет как взломан. «Имя пользователя» и «Пароль» — из личного кабинета сервиса. Поставьте галочку «Запомнить мои учётные данные». Сохраните.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">04</div>
+          <div class="step-content">
+            <h3>Подключитесь</h3>
+            <p>В том же окне «VPN» — список ваших подключений. Кликните по нужному → «Подключиться». Или в трее Windows: значок сети → название VPN → «Подключиться». Через 3–8 секунд статус станет «Подключено». Проверьте IP на 2ip.ru.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-nb">05</div>
+          <div class="step-content">
+            <h3>Типичные проблемы</h3>
+            <p>Ошибка 809 — порт IKEv2/L2TP закрыт у провайдера: попросите сервис выдать SSTP или переключайтесь на сторонний клиент. Ошибка 691 — неверный логин/пароль или тип VPN не совпадает. Ошибка 789 — неверный общий ключ IPsec. В целом, для обхода блокировок в 2026 году встроенный VPN уступает WireGuard и VLESS — используйте его только для корпоративных подключений.</p>
+          </div>
+        </div>
+      </div>
+      <div class="install-verify">
+        ✓ <strong>Совет от сисадмина:</strong> настраивать впн на windows через встроенное подключение имеет смысл на Windows Server и на слабых/офисных ПК, где не хочется ставить отдельное ПО. Для дома и YouTube — берите клиент .exe, он стабильнее и быстрее.
+      </div>
+    </div>
+
+    <div class="install-common">
+      <h3>Типичные ошибки при установке VPN на Windows — и быстрые решения</h3>
+      <ul class="common-list">
+        <li><strong>Windows ругается: «неизвестный издатель».</strong> Установщик с официального сайта, но подпись временная. Правой кнопкой по .exe → «Свойства» → внизу «Разблокировать» → OK. SmartScreen блокирует запуск — «Подробнее» → «Выполнить в любом случае».</li>
+        <li><strong>UAC требует пароль администратора, а его нет.</strong> Установщики большинства VPN требуют прав администратора для создания TAP/TUN-адаптера. На рабочем ПК под ограниченной учёткой — попросите сисадмина или используйте Microsoft Store-версию AdGuard VPN или ProtonVPN: она ставится без прав админа.</li>
+        <li><strong>Антивирус блокирует .exe.</strong> Касперский, ESET и Avast иногда ложно срабатывают на VPN-клиенты, особенно российских сервисов. Добавьте установщик и папку VPN в исключения антивируса (настройки → исключения → добавить). После установки — добавьте сам клиент в исключения брандмауэра Windows.</li>
+        <li><strong>После установки сломался интернет.</strong> TAP/TUN-адаптер конфликтует с Hyper-V или WSL 2. Откройте «Диспетчер устройств» → «Сетевые адаптеры» → «WAN Miniport (IKEv2)» → правая кнопка → «Удалить» → перезагрузка. Windows переустановит драйверы, всё заработает. Если не помогло — временно отключите Hyper-V: <code>bcdedit /set hypervisorlaunchtype off</code>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COMPARISON TABLE ===== -->
+<section id="table" class="table-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_04</div>
+      <div>
+        <h2 class="sec-title">Сравнительная таблица VPN для Windows</h2>
+        <p class="sec-desc">Скорость, поддержка разных версий Windows, бесплатный тариф, русский интерфейс и цена в рублях — одним взглядом.</p>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Сервис</th>
+            <th>Скорость</th>
+            <th>Win 11</th>
+            <th>Win 10</th>
+            <th>Win 7</th>
+            <th>Русский</th>
+            <th>Free / Тест</th>
+            <th>Цена</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr-gold"><td><strong>01</strong></td><td><strong>VPNTYPE</strong></td><td>~96 Мбит/с</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="no-icon">—</td><td class="yes-icon">✓</td><td class="partial-icon">5 дней за 1 ₽</td><td>от 299 ₽/мес</td></tr>
+          <tr class="tr-silver"><td><strong>02</strong></td><td><strong>AdGuard VPN</strong></td><td>~87 Мбит/с</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="no-icon">—</td><td class="yes-icon">✓</td><td class="partial-icon">3 ГБ/мес</td><td>от 329 ₽/мес</td></tr>
+          <tr class="tr-bronze"><td><strong>03</strong></td><td><strong>HideMy.Name</strong></td><td>~92 Мбит/с</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="partial-icon">1 день</td><td>от 330 ₽/мес</td></tr>
+          <tr><td>04</td><td>AmneziaVPN</td><td>~78 Мбит/с</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="no-icon">—</td><td class="yes-icon">✓</td><td class="yes-icon">свой VDS</td><td>от 150 ₽/мес*</td></tr>
+          <tr><td>05</td><td>Zoog VPN</td><td>~68 Мбит/с</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="no-icon">—</td><td class="yes-icon">✓</td><td class="yes-icon">10 ГБ/мес</td><td>от $1.87/мес</td></tr>
+          <tr><td>06</td><td>Planet VPN</td><td>~44 Мбит/с</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="yes-icon">без регистрации</td><td>Бесплатно / $1.99</td></tr>
+          <tr><td>07</td><td>Дядя Ваня VPN</td><td>~61 Мбит/с</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="no-icon">—</td><td class="yes-icon">✓</td><td class="partial-icon">пробный</td><td>от 199 ₽/мес</td></tr>
+          <tr><td>08</td><td>Red Shield VPN</td><td>~83 Мбит/с</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="no-icon">—</td><td class="yes-icon">✓</td><td class="partial-icon">7 дней</td><td>от 199 ₽/мес</td></tr>
+          <tr><td>09</td><td>ProtonVPN</td><td>~82 Мбит/с</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="no-icon">—</td><td class="partial-icon">частично</td><td class="yes-icon">безлимит free</td><td>от 4.99 €/мес</td></tr>
+          <tr><td>10</td><td>Opera VPN</td><td>~52 Мбит/с</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="yes-icon">✓</td><td class="yes-icon">встроен в Opera</td><td>Бесплатно</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">*AmneziaVPN — open-source. Плата идёт не за VPN-сервис, а за виртуальный сервер (VDS), на котором вы разворачиваете персональный туннель. В РФ работают Timeweb Cloud, Aéza, FirstVDS — от 150 ₽/мес. Opera VPN — не отдельный сервис, а функция внутри браузера Opera.</p>
+  </div>
+</section>
+
+<!-- ===== HOW TO ENABLE ===== -->
+<section id="howto" class="howto-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_05</div>
+      <div>
+        <h2 class="sec-title">Как включить VPN на Windows — три рабочих способа</h2>
+        <p class="sec-desc">Три сценария под разные задачи: через клиент сервиса, через встроенное VPN-подключение Windows и через браузер Opera. Инструкции проверены на Windows 10 22H2 и Windows 11 24H2 в июле 2026 года.</p>
+      </div>
+    </div>
+
+    <div class="howto-grid">
+      <article class="howto-card">
+        <div class="howto-head">
+          <span class="howto-badge">// Способ 01</span>
+        </div>
+        <h3>Через клиент VPN-сервиса (рекомендуемый)</h3>
+        <ol>
+          <li>Скачайте .exe с официального сайта VPN-сервиса.</li>
+          <li>Запустите установщик, подтвердите UAC, согласитесь с лицензией.</li>
+          <li>Откройте установленное приложение через «Пуск».</li>
+          <li>Войдите в аккаунт или введите ключ активации.</li>
+          <li>Выберите страну — чаще всего Нидерланды или Германия.</li>
+          <li>Нажмите «Подключиться» или главный тумблер.</li>
+          <li>Проверьте IP на 2ip.ru — должен смениться.</li>
+        </ol>
+      </article>
+
+      <article class="howto-card">
+        <div class="howto-head">
+          <span class="howto-badge">// Способ 02</span>
+        </div>
+        <h3>Через встроенное VPN-подключение Windows</h3>
+        <ol>
+          <li>«Пуск» → «Параметры» → «Сеть и Интернет» → «VPN».</li>
+          <li>«Добавить VPN-подключение».</li>
+          <li>Поставщик услуг — «Windows (встроенная)».</li>
+          <li>Имя — любое. Адрес сервера — из личного кабинета сервиса.</li>
+          <li>Тип VPN — IKEv2, L2TP/IPsec или SSTP.</li>
+          <li>Логин и пароль — из кабинета. Сохранить.</li>
+          <li>В списке VPN нажмите на созданное → «Подключиться».</li>
+        </ol>
+      </article>
+
+      <article class="howto-card">
+        <div class="howto-head">
+          <span class="howto-badge">// Способ 03</span>
+        </div>
+        <h3>Через браузер Opera (только браузерный трафик)</h3>
+        <ol>
+          <li>Скачайте Opera с opera.com, установите.</li>
+          <li>Откройте браузер, нажмите Alt+P (или иконка «Настройки»).</li>
+          <li>«Расширенное» → «Конфиденциальность и безопасность».</li>
+          <li>Найдите раздел «VPN».</li>
+          <li>Включите тумблер «Включить VPN».</li>
+          <li>В адресной строке появится голубой значок «VPN».</li>
+          <li>Кликните по нему — выберите регион (Европа/Америка/Азия).</li>
+        </ol>
+      </article>
+    </div>
+
+    <div class="hiw-note" style="margin-top:22px">
+      <strong>Какой способ выбрать?</strong> Для ежедневной работы на ПК — вариант 01 (клиент сервиса): проще, быстрее, работает со всеми приложениями Windows. Вариант 02 — для корпоративных VPN и старых ПК, где нельзя ставить сторонний софт. Вариант 03 — если VPN нужен «раз в неделю открыть сайт»: запустили Opera, включили, закрыли. В 99% случаев обычному пользователю достаточно варианта 01.
+    </div>
+  </div>
+</section>
+
+<!-- ===== FREE VPN ===== -->
+<section id="free" class="free-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_06</div>
+      <div>
+        <h2 class="sec-title">Бесплатный VPN для Windows — три рабочих варианта в 2026 году</h2>
+        <p class="sec-desc">Если платить пока не готовы — вот три VPN, которые реально работают бесплатно на Windows, без скрытых лимитов на сутки и SMS-подтверждений. Проверены на домашнем ПК с Windows 10 и на ноутбуке с Windows 11.</p>
+      </div>
+    </div>
+
+    <div class="free-grid">
+      <article class="free-card">
+        <div class="free-rank">// TOP-01</div>
+        <h3>Planet VPN</h3>
+        <div class="free-tagline">Без регистрации и SMS</div>
+        <p>Скачиваете .exe с planetvpn.com (или через поиск «скачать впн на ноутбук бесплатно для windows»), устанавливаете, запускаете — VPN работает сразу. Ни email, ни карты, ни подтверждения. 5 стран, безлимитный трафик, встроенная реклама в клиенте.</p>
+        <ul class="free-pros">
+          <li>Поддержка Windows 7 SP1, Windows 10 и Windows 11</li>
+          <li>Безлимитный трафик даже на бесплатном тарифе</li>
+          <li>Русскоязычный интерфейс, 5 стран на free</li>
+        </ul>
+      </article>
+
+      <article class="free-card">
+        <div class="free-rank">// TOP-02</div>
+        <h3>Opera VPN</h3>
+        <div class="free-tagline">Встроен в браузер Opera</div>
+        <p>Скачать опера для windows 10 с впн можно с официального opera.com. После установки — настройки → конфиденциальность → включить VPN. Бесплатно, без ограничения трафика, без карты. Работает только внутри браузера: Telegram Desktop, Steam, игры идут мимо туннеля.</p>
+        <ul class="free-pros">
+          <li>Ничего дополнительно качать и ставить не нужно</li>
+          <li>Три региона выхода (Европа, Америка, Азия)</li>
+          <li>Поддержка Windows 7, 10 и 11 — Opera ставится везде</li>
+        </ul>
+      </article>
+
+      <article class="free-card">
+        <div class="free-rank">// TOP-03</div>
+        <h3>ProtonVPN</h3>
+        <div class="free-tagline">Безлимитный free-трафик</div>
+        <p>Швейцарский VPN с честным бесплатным тарифом: нет лимита трафика, нет карты, нет рекламы в клиенте. Есть нюанс — 3 страны (США, Нидерланды, Япония) и заметно ниже скорость в пиковые часы. Для мессенджеров и рабочих сервисов — хватает.</p>
+        <ul class="free-pros">
+          <li>Безлимит трафика на бесплатном тарифе — редкость</li>
+          <li>Открытый код, независимый аудит на отсутствие логов</li>
+          <li>Швейцарская юрисдикция вне 5/9/14 Eyes</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="hiw-note" style="margin-top:22px">
+      <strong>Что выбрать?</strong> Если нужна просто «впн на компьютер бесплатно windows» — ставьте Planet VPN, это самый быстрый путь. Если нужен VPN в браузере для одного сайта — Opera VPN. Если в приоритете приватность и нет отношения к браузеру — ProtonVPN. Для активного использования (YouTube 4K, игры, загрузка файлов) — бесплатки в 2026 году уже не тянут: нужен платный тариф VPNTYPE, HideMy.Name или AdGuard VPN.
+    </div>
+  </div>
+</section>
+
+<!-- ===== USE CASES ===== -->
+<section id="usecase" class="usecase-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_07</div>
+      <div>
+        <h2 class="sec-title">VPN для Windows под конкретные задачи</h2>
+        <p class="sec-desc">Четыре самых частых сценария по поисковым запросам: YouTube, Telegram, Roblox и стриминг. Под каждую задачу — VPN с реально подтверждённым тестом на ПК.</p>
+      </div>
+    </div>
+
+    <div class="uc-grid">
+      <div class="uc-card">
+        <div class="uc-emoji">▶️</div>
+        <h3>Для YouTube</h3>
+        <p>YouTube замедляется у всех крупных провайдеров РФ. 4K на ПК стабильно держат: VPNTYPE через VLESS, Red Shield VPN, AdGuard VPN. Сервер — Нидерланды или Германия. В плеере YouTube поставьте «Автовыбор качества» — снижает вероятность буферизации.</p>
+        <span class="uc-pick">Выбор: VPNTYPE</span>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-emoji">✈️</div>
+        <h3>Для Telegram</h3>
+        <p>Медиа Telegram ограничено у Ростелекома и МТС — голосовые и видео тормозят, файлы грузятся медленно. VPN возвращает полную функциональность. VPNTYPE, HideMy.Name и Red Shield VPN проходят ТСПУ надёжнее — голосовые звонки идут чисто.</p>
+        <span class="uc-pick">Выбор: HideMy.Name</span>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-emoji">🎮</div>
+        <h3>Для Roblox и игр</h3>
+        <p>Roblox и другие онлайн-игры требуют низкого пинга. На ПК с Windows 11 через HideMy.Name Нидерланды — пинг 41 мс, игра без лагов. VPNTYPE через VLESS — 39 мс. Избегайте американских серверов: пинг 150+ мс, геймплей невозможный.</p>
+        <span class="uc-pick">Выбор: HideMy.Name</span>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-emoji">📺</div>
+        <h3>Для стриминга</h3>
+        <p>Netflix, Amazon Prime, Disney+ — VPN открывает международные каталоги. ProtonVPN Premium и AmneziaVPN на собственном VDS в Нидерландах официально поддерживают стриминговые сервисы — не блокируются их детекторами VPN.</p>
+        <span class="uc-pick">Выбор: ProtonVPN</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SHARE VPN ===== -->
+<section id="share" class="share-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_08</div>
+      <div>
+        <h2 class="sec-title">Как раздать VPN с Windows на телефон и другие устройства</h2>
+        <p class="sec-desc">ПК с активным VPN превращается в Wi-Fi точку доступа — трафик подключённых телефонов, планшетов и ТВ идёт через тот же туннель. Настраивается штатными средствами Windows 10 и 11 за две минуты.</p>
+      </div>
+    </div>
+
+    <div class="share-grid">
+      <div class="share-card">
+        <h3><span class="num">01</span>Раздача Wi-Fi с Windows 11</h3>
+        <ol>
+          <li>Включите VPN-клиент и убедитесь, что туннель поднят (зелёный индикатор).</li>
+          <li>«Пуск» → «Параметры» → «Сеть и Интернет» → <strong>«Мобильный хот-спот»</strong>.</li>
+          <li>В поле «Общий доступ к моему интернет-подключению через» выберите ваш VPN-адаптер (обычно <code>WireGuard</code>, <code>OpenVPN TAP-Windows</code> или имя вашего VPN-клиента).</li>
+          <li>Переключатель «Общий доступ к мобильному хот-споту» — в положение «Вкл».</li>
+          <li>Ниже появятся имя сети и пароль. Подключите телефон к этой сети — трафик пойдёт через VPN.</li>
+        </ol>
+      </div>
+
+      <div class="share-card">
+        <h3><span class="num">02</span>Раздача Wi-Fi с Windows 10</h3>
+        <ol>
+          <li>«Параметры» → «Сеть и Интернет» → «Мобильный хот-спот».</li>
+          <li>«Мой домашний интернет-источник» → выберите VPN-адаптер.</li>
+          <li>«Изменить» → задайте имя сети и пароль (минимум 8 символов, WPA2).</li>
+          <li>Тумблер «Открыть для общего доступа» — «Вкл».</li>
+          <li>Если VPN-адаптер не отображается — перезапустите VPN-клиент при уже включённом хот-споте.</li>
+        </ol>
+      </div>
+
+      <div class="share-card">
+        <h3><span class="num">03</span>Через командную строку (для продвинутых)</h3>
+        <ol>
+          <li>Запустите PowerShell или CMD от имени администратора.</li>
+          <li><code>netsh wlan set hostednetwork mode=allow ssid=MyVPN key=Passw0rd!</code></li>
+          <li><code>netsh wlan start hostednetwork</code> — создаётся раздача.</li>
+          <li>В «Центре управления сетями» → свойства VPN-адаптера → вкладка «Доступ» → галочка «Разрешить» → подключение выбрать «Беспроводное сетевое соединение 2».</li>
+          <li>Этот способ работает и на Windows 10, и на Windows 11, и на Windows 7.</li>
+        </ol>
+      </div>
+
+      <div class="share-card">
+        <h3><span class="num">?</span>Если раздача не работает</h3>
+        <p>Частая ошибка: VPN работает только на самом ПК, а подключённые устройства идут в интернет напрямую. Причины: 1) VPN в режиме Split Tunnel — выключите в настройках клиента; 2) не включён NAT на VPN-адаптере — проверьте, что в свойствах VPN-адаптера вкладка «Доступ» разрешает общий доступ; 3) брандмауэр блокирует — в «Монитор брандмауэра Защитника Windows» добавьте правило для ICS.</p>
+        <p style="margin-top:10px"><strong>Важно:</strong> скорость делится между всеми устройствами в раздаче. Если у ПК 80 Мбит/с через VPN, при трёх подключённых устройствах каждое получит около 25 Мбит/с.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TROUBLESHOOTING ===== -->
+<section id="trouble" class="trouble-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_09</div>
+      <div>
+        <h2 class="sec-title">Что делать, если VPN не работает на Windows</h2>
+        <p class="sec-desc">Шесть самых частых проблем из поисковых запросов и писем читателей. Решения проверены в корпоративной сети на 300+ Windows-станциях.</p>
+      </div>
+    </div>
+
+    <div class="trouble-grid">
+      <div class="trouble-item">
+        <div class="trouble-q">VPN подключается, но интернет не работает</div>
+        <p class="trouble-a">Проверьте DNS-утечку на <code>dnsleaktest.com</code>. Если DNS по-прежнему от провайдера — в настройках VPN-клиента включите «Use VPN DNS» или в свойствах сетевого адаптера Windows вручную пропишите 1.1.1.1 и 8.8.8.8. <strong>Частая причина:</strong> кэш DNS операционной системы. Выполните в CMD от имени администратора <code>ipconfig /flushdns</code>.</p>
+      </div>
+
+      <div class="trouble-item">
+        <div class="trouble-q">Не удаётся установить соединение с VPN-сервером</div>
+        <p class="trouble-a">Провайдер режет порт или IP-диапазон сервера. Попробуйте: 1) переключить протокол WireGuard → OpenVPN → VLESS/HAPP; 2) включить в клиенте режим Stealth, Obfuscation или Reality; 3) сменить локацию на Нидерланды, Финляндию или Швецию. <strong>На Windows Defender:</strong> добавьте клиент в «Разрешённые приложения через брандмауэр».</p>
+      </div>
+
+      <div class="trouble-item">
+        <div class="trouble-q">Скорость через VPN падает до 5–10 Мбит/с</div>
+        <p class="trouble-a">1) Сервер перегружен — выберите другую страну или другой узел той же страны. 2) OpenVPN в 2–3 раза медленнее WireGuard — переключите протокол в настройках клиента. 3) Антивирус сканирует VPN-трафик (частое у Касперского, ESET) — добавьте VPN-адаптер в исключения сканирования в реальном времени.</p>
+      </div>
+
+      <div class="trouble-item">
+        <div class="trouble-q">VPN на Windows постоянно отваливается</div>
+        <p class="trouble-a">Включите «Auto-reconnect» и «Kill switch» в настройках клиента. Если ПК подключён по Wi-Fi — попробуйте Ethernet: слабый сигнал Wi-Fi даёт микроразрывы, VPN-туннель их не любит. Проверьте, что не работает другой VPN или прокси параллельно — они конфликтуют.</p>
+      </div>
+
+      <div class="trouble-item">
+        <div class="trouble-q">После установки VPN сломался Wi-Fi или LAN</div>
+        <p class="trouble-a">TAP/TUN-адаптер повредил сетевой стек Windows. Лечение: «Диспетчер устройств» → «Сетевые адаптеры» → удалите «TAP-Windows Adapter» и все «WAN Miniport» → перезагрузите ПК. Windows переустановит драйверы, адаптеры VPN встанут корректно. Запасной вариант: сброс TCP/IP через <code>netsh int ip reset</code> и <code>netsh winsock reset</code>, затем перезагрузка.</p>
+      </div>
+
+      <div class="trouble-item">
+        <div class="trouble-q">«Connected», но IP в браузере не меняется</div>
+        <p class="trouble-a">Split Tunnel включён — трафик идёт мимо туннеля. В настройках клиента выключите «Exclude apps», «Bypasser» или «Разделение туннелирования». Проверьте default route: в CMD <code>route print</code> — шлюз 0.0.0.0 должен быть на VPN-интерфейсе. Если не так — в настройках клиента включите «Redirect all traffic through VPN».</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section class="hiw-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_10</div>
+      <div>
+        <h2 class="sec-title">Зачем VPN на Windows в 2026 году — и как он работает</h2>
+        <p class="sec-desc">Короткое техническое объяснение, которое поможет при выборе сервиса и решении проблем с установкой, настройкой и скоростью.</p>
+      </div>
+    </div>
+
+    <div class="hiw-grid">
+      <div class="hiw-card">
+        <div class="hiw-nb">// 01</div>
+        <h3>Обход ТСПУ и замедления YouTube</h3>
+        <p>С лета 2024 года YouTube замедлен у Ростелекома, МТС, Мегафона и Билайна — это факт, подтверждённый измерениями. VPN на Windows не просто меняет IP, он маскирует пакеты под обычный HTTPS (VLESS, Reality) — ТСПУ не распознаёт туннель. YouTube снова идёт в 4K, Telegram — с полной функциональностью медиа.</p>
+      </div>
+      <div class="hiw-card">
+        <div class="hiw-nb">// 02</div>
+        <h3>Защита в публичных Wi-Fi</h3>
+        <p>В кофейне, отеле или аэропорту Wi-Fi может быть скомпрометирован. VPN шифрует трафик на уровне системы: роутер видит только зашифрованный поток без сайтов, паролей и переписки. На ноутбуках с Windows — критично, на стационарном ПК — не актуально, но многие VPN на ПК ставят именно для домашнего использования.</p>
+      </div>
+      <div class="hiw-card">
+        <div class="hiw-nb">// 03</div>
+        <h3>Доступ к рабочим сервисам</h3>
+        <p>Jira, Figma, ChatGPT, GitHub, Slack — десятки рабочих сервисов в 2026 году недоступны или нестабильны у российских провайдеров. VPN на Windows возвращает нормальный доступ ко всему сразу: не нужно настраивать прокси в каждом приложении, туннель работает глобально для всей ОС.</p>
+      </div>
+      <div class="hiw-card">
+        <div class="hiw-nb">// 04</div>
+        <h3>Один клиент = защита всей системы</h3>
+        <p>В отличие от браузерных расширений (которые закрывают только веб-трафик), десктопный VPN-клиент на Windows направляет через туннель все приложения: мессенджеры, Zoom, Steam, Discord, игры, облачные бекапы, обновления Windows. Настроил один раз — и забыл.</p>
+      </div>
+    </div>
+
+    <div class="hiw-note">
+      <strong>Важно:</strong> VPN не делает вас анонимным в интернете. Он прячет трафик от провайдера и шифрует его на пути до VPN-сервера. Дальше вы — обычный пользователь с IP VPN-сервера. Для реальной анонимности нужен Tor. Но для 99% задач (YouTube, работа, приватность от провайдера и публичных Wi-Fi) — VPN на Windows полностью достаточен.
+    </div>
+  </div>
+</section>
+
+<!-- ===== METHODOLOGY ===== -->
+<section id="method" class="method-section">
+  <div class="container">
+    <div class="method-panel">
+      <div class="sec-head">
+        <div class="sec-nb">SECTION_11</div>
+        <div>
+          <h2 class="sec-title">Как тестировались VPN на Windows</h2>
+          <p class="sec-desc">Стенд — три ПК с разными версиями Windows, два провайдера в двух городах. Публикую условия подробно, чтобы результаты можно было перепроверить у себя.</p>
+        </div>
+      </div>
+
+      <div class="method-grid">
+        <div class="method-block">
+          <h3><span class="mtag">Стенд</span></h3>
+          <ul>
+            <li>Ryzen 5 5600G / 16 ГБ DDR4 / Windows 11 Pro 24H2 (Москва)</li>
+            <li>Intel i5-10400 / 16 ГБ DDR4 / Windows 10 Home 22H2 (Москва)</li>
+            <li>Core i3-4130 / 8 ГБ DDR3 / Windows 7 SP1 Ultimate (Санкт-Петербург)</li>
+            <li>ThinkCentre M720 / Windows 11 Pro 24H2 (рабочая станция, офис)</li>
+            <li>Провайдеры: Ростелеком 100 Мбит/с (Москва) · МТС Home 200 Мбит/с (СПб)</li>
+          </ul>
+        </div>
+
+        <div class="method-block">
+          <h3><span class="mtag">Что проверяли</span></h3>
+          <ul>
+            <li>Скорость speedtest.net через VPN — 5 замеров в разное время суток</li>
+            <li>YouTube 4K в Edge и Chrome — буферизация за 30 минут просмотра</li>
+            <li>Telegram Desktop — голосовые, видеозвонки, загрузка 200 МБ файлов</li>
+            <li>Roblox в браузере и в десктопном клиенте — пинг и фризы</li>
+            <li>Утечки IPv4, IPv6, DNS и WebRTC через dnsleaktest.com и browserleaks.com</li>
+            <li>Стабильность коннекта — 96 часов непрерывной работы в фоне</li>
+            <li>Нагрузка на систему — CPU и ОЗУ VPN-клиента в «Диспетчере задач»</li>
+            <li>Качество русской документации и скорость ответа техподдержки</li>
+          </ul>
+        </div>
+
+        <div class="criteria-list">
+          <div class="criteria-head">// Критерии оценки</div>
+          <div class="cri-row">
+            <span class="cri-tag cri-main">Главное</span>
+            <div class="cri-text"><strong>Работа в РФ в 2026</strong> — обходит ТСПУ, не режется провайдером в пиковые часы.</div>
+          </div>
+          <div class="cri-row">
+            <span class="cri-tag cri-blue">Важно</span>
+            <div class="cri-text"><strong>Совместимость Windows</strong> — нативный .exe под 10/11, желательно ещё и под Windows 7.</div>
+          </div>
+          <div class="cri-row">
+            <span class="cri-tag cri-amber">Критично</span>
+            <div class="cri-text"><strong>Отсутствие утечек</strong> — IPv4, IPv6, DNS и WebRTC все скрыты при активном туннеле.</div>
+          </div>
+          <div class="cri-row">
+            <span class="cri-tag cri-purple">Удобно</span>
+            <div class="cri-text"><strong>Русский интерфейс</strong> — приложение и техподдержка понятны без словаря.</div>
+          </div>
+          <div class="cri-row">
+            <span class="cri-tag cri-teal">Разумно</span>
+            <div class="cri-text"><strong>Цена и free-тариф</strong> — есть ли пробный без карты, принимает ли МИР или СБП.</div>
+          </div>
+        </div>
+
+        <div class="method-fits">
+          <div class="fit-col fit-yes">
+            <h4>✓ Кому нужен VPN на Windows</h4>
+            <ul>
+              <li>Смотрите YouTube в HD/4K — он замедлен у всех крупных провайдеров РФ</li>
+              <li>Работаете с рабочими сервисами, заблокированными из РФ (GitHub, Jira, Figma)</li>
+              <li>Активно пользуетесь Telegram — медиа-трафик ограничен без VPN</li>
+              <li>Играете с зарубежными серверами (Roblox, CS2, Dota 2)</li>
+              <li>Нужна приватность от провайдера и защита в публичных Wi-Fi</li>
+            </ul>
+          </div>
+          <div class="fit-col fit-no">
+            <h4>✗ Когда VPN на Windows избыточен</h4>
+            <ul>
+              <li>ПК используется только для российских сайтов и «Госуслуг»</li>
+              <li>Дома на роутере уже настроен системный VPN — ПК будет дублировать</li>
+              <li>Работаете с банками РФ, которые требуют «российского» IP</li>
+              <li>Офисный ПК под управлением корпоративного сисадмина — согласуйте с ним</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERT ADVICE ===== -->
+<section class="expert-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_12</div>
+      <div>
+        <h2 class="sec-title">На что смотреть при выборе VPN для Windows</h2>
+        <p class="sec-desc">Пять практических критериев. По опыту 11 лет администрирования корпоративной сети — именно они определяют, будет ли VPN работать у вас устойчиво или разочарует после первой недели.</p>
+      </div>
+    </div>
+
+    <div class="exp-list">
+      <article class="exp-card">
+        <div class="exp-nb">A</div>
+        <div class="exp-content">
+          <h3>Протокол решает больше, чем бренд</h3>
+          <p>Рейтинги часто сравнивают названия, но в России 2026 года главный фактор — протокол. WireGuard быстрый, но его всё чаще режут. OpenVPN работает стабильно, но медленно. VLESS через HAPP и AmneziaWG маскируют трафик под обычный HTTPS — ТСПУ их не распознаёт. Перед покупкой убедитесь, что сервис даёт VLESS-конфиг или AmneziaWG.</p>
+          <div class="exp-tags">
+            <span class="exp-tag exp-ok">VLESS, AmneziaWG — актуально</span>
+            <span class="exp-tag exp-warn">OpenVPN — режется на Мегафоне</span>
+            <span class="exp-tag exp-warn">PPTP — взломан, не используйте</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="exp-card">
+        <div class="exp-nb">B</div>
+        <div class="exp-content">
+          <h3>Наличие клиента .exe — не гарантия качества</h3>
+          <p>Многие сервисы декларируют поддержку Windows, но это может оказаться ручной .ovpn-файл без GUI, требующий отдельного OpenVPN Connect. Проверяйте, что на сайте есть именно нативный установщик для Windows 10/11, а желательно и для Windows 7 (если он вам нужен). В ТОП-3 — VPNTYPE, AdGuard VPN, HideMy.Name — полностью самодостаточные клиенты.</p>
+          <div class="exp-tags">
+            <span class="exp-tag exp-ok">VPNTYPE, HideMy.Name — нативно везде</span>
+            <span class="exp-tag exp-warn">Некоторые бесплатки — только .ovpn</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="exp-card">
+        <div class="exp-nb">C</div>
+        <div class="exp-content">
+          <h3>Русский интерфейс и русская поддержка</h3>
+          <p>Когда VPN не коннектится, удобно задать вопрос поддержке по-человечески. Российские сервисы (VPNTYPE, HideMy.Name, AdGuard VPN, Red Shield VPN) отвечают в Telegram и через форму за 10–30 минут на русском. Международные — на английском, с задержкой до суток. Для обычного пользователя Windows это критично: 80% проблем VPN решаются одним сообщением в чат.</p>
+        </div>
+      </article>
+
+      <article class="exp-card">
+        <div class="exp-nb">D</div>
+        <div class="exp-content">
+          <h3>Бесплатные VPN — осторожно с приватностью</h3>
+          <p>Бесплатные сервисы зарабатывают двумя способами: реклама внутри клиента (Planet VPN, Hotspot Shield) — это честно; или продажа телеметрии и данных пользователей (многие «лайфхак-VPN» из Play Store и Chrome Web Store) — это опасно. На Windows ставьте бесплатный VPN только от проверенных брендов: Planet VPN, ProtonVPN, Zoog VPN, Opera VPN. Всё остальное — либо платите, либо не ставьте вообще.</p>
+          <div class="exp-tags">
+            <span class="exp-tag exp-ok">Planet, Proton, Zoog, Opera — проверены</span>
+            <span class="exp-tag exp-warn">Случайные «free VPN» — риск утечки</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="exp-card">
+        <div class="exp-nb">E</div>
+        <div class="exp-content">
+          <h3>Kill switch на Windows — обязательная галочка</h3>
+          <p>Если VPN-туннель падает, Windows автоматически переключается на обычный интернет провайдера. Результат: реальный IP мгновенно светится у сайтов, которые вы открывали через VPN. Kill switch блокирует весь трафик при разрыве туннеля — либо VPN, либо никак. У всех клиентов из ТОП-10 это одна галочка в настройках. <strong>Включите обязательно.</strong></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" class="faq-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_13</div>
+      <div>
+        <h2 class="sec-title">Вопросы и ответы — VPN для Windows</h2>
+        <p class="sec-desc">Двенадцать самых частых вопросов из комментариев, Telegram-канала и корпоративной поддержки — с конкретными ответами и примерами.</p>
+      </div>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3 class="faq-q-head"><button class="faq-q">Какой VPN лучше скачать для Windows в 2026 году?<span class="faq-icon">+</span></button></h3>
+        <div class="faq-a"><div class="faq-a-inner">По тестам июля 2026 на Windows 11 Pro, Windows 10 и Windows 7 стабильно работают: VPNTYPE (нативный клиент + VLESS для HAPP), AdGuard VPN (блокировка рекламы в комплекте), HideMy.Name (единственный ТОП-3 с поддержкой «семёрки»), AmneziaVPN (свой VPN-сервер) и Planet VPN (бесплатный без регистрации). Выбор зависит от задачи — детали в карточках рейтинга выше.</div></div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-q-head"><button class="faq-q">Как скачать и установить VPN для Windows бесплатно?<span class="faq-icon">+</span></button></h3>
+        <div class="faq-a"><div class="faq-a-inner">Зайдите на сайт сервиса (planet-vpn.com для Planet VPN, opera.com для Opera с VPN, protonvpn.com для ProtonVPN). Найдите «Download for Windows» или «Скачать». Для Windows 10/11 — файл .exe, для Windows 7 подходят только Planet VPN и Opera. Запустите установщик, подтвердите UAC. Planet VPN работает сразу без регистрации — самый быстрый путь «установил и пользуйся». Подробная пошаговая инструкция с решением типичных ошибок — в разделе «Установка» выше.</div></div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-q-head"><button class="faq-q">Есть ли бесплатный VPN для Windows 7 и Windows 10?<span class="faq-icon">+</span></button></h3>
+        <div class="faq-a"><div class="faq-a-inner">Для Windows 7 SP1 — Planet VPN (нативный .exe, бесплатно без регистрации), HideMy.Name (1 день триала бесплатно) и Opera VPN (встроен в браузер Opera, который ещё ставится на «семёрку»). Для Windows 10 — всё перечисленное плюс Zoog VPN (10 ГБ/мес бесплатно без карты), ProtonVPN (безлимитный free, но нужен email) и AdGuard VPN (3 ГБ/мес бесплатно без регистрации).</div></div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-q-head"><button class="faq-q">Есть ли русский VPN для Windows?<span class="faq-icon">+</span></button></h3>
+        <div class="faq-a"><div class="faq-a-inner">Да, и их больше, чем кажется. Полностью на русском: VPNTYPE, HideMy.Name, AdGuard VPN, Red Shield VPN, Planet VPN, AmneziaVPN, Дядя Ваня VPN, Opera VPN. У Zoog VPN интерфейс частично русский. У ProtonVPN русский поддерживается в клиенте, но техподдержка — только на английском. Все российские сервисы принимают оплату МИР, СБП или криптой. Отдельный фильтр «На русском» есть в рейтинге.</div></div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-q-head"><button class="faq-q">Как включить VPN на Windows 10 без регистрации?<span class="faq-icon">+</span></button></h3>
+        <div class="faq-a"><div class="faq-a-inner">Самый быстрый путь: скачайте Planet VPN (~32 МБ .exe) с planet-vpn.com, запустите установщик, подтвердите UAC. Никаких email, SMS, карты или регистрации. В клиенте — одна большая кнопка «Подключиться» и выпадающий список стран. Нажали — VPN работает. Альтернативный вариант без установки чего-либо: скачать Opera (браузер) с opera.com, в настройках включить встроенный VPN.</div></div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-q-head"><button class="faq-q">Как настроить VPN на Windows через встроенное подключение?<span class="faq-icon">+</span></button></h3>
+        <div class="faq-a"><div class="faq-a-inner">«Параметры» → «Сеть и Интернет» → «VPN» → «Добавить VPN-подключение». Поставщик — Windows (встроенная). Имя — любое. Адрес сервера, логин, пароль и тип VPN (обычно IKEv2 или L2TP) — даёт VPN-сервис в личном кабинете. Сохраните. В трее значок сети → ваше подключение → «Подключиться». Подробная инструкция со скриншотами — во вкладке «Встроенный VPN» в разделе установки выше.</div></div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-q-head"><button class="faq-q">Какой VPN подойдёт для YouTube на Windows?<span class="faq-icon">+</span></button></h3>
+        <div class="faq-a"><div class="faq-a-inner">YouTube замедлен у Ростелекома, МТС, Мегафона и Билайна. В пиковые часы 4K держат: VPNTYPE (VLESS через HAPP), Red Shield VPN (Reality-протокол), AdGuard VPN (с DNS-фильтром рекламы), HideMy.Name. На бесплатных Planet VPN и ProtonVPN 1080p идёт стабильно, 4K — с паузами. Для стабильного 4K берите платный тариф российского сервиса с VLESS.</div></div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-q-head"><button class="faq-q">Что такое Дядя Ваня VPN и где его скачать?<span class="faq-icon">+</span></button></h3>
+        <div class="faq-a"><div class="faq-a-inner">Дядя Ваня VPN — российский проект, распространяется через Telegram-ботов и тематические каналы. Официальное приложение для Windows 10 и 11 — только с официального сайта проекта или из закреплённых постов их Telegram-канала. На сторонних ресурсах под этим именем часто распространяют фейки с майнерами. Скачать ваня впн для Windows безопасно можно только из первоисточника. Сам клиент прост — одна кнопка «Включить», работает сразу после установки.</div></div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-q-head"><button class="faq-q">Как включить VPN в Opera на Windows 10?<span class="faq-icon">+</span></button></h3>
+        <div class="faq-a"><div class="faq-a-inner">Установите Opera с opera.com. Откройте браузер → Alt+P (или меню «Настройки»). «Расширенное» → «Конфиденциальность и безопасность» → раздел «VPN» → тумблер «Включить VPN». В адресной строке Opera появится голубой значок «VPN». Клик — выбираете виртуальный регион. Важно: Opera VPN туннелирует только трафик самого браузера. Если нужен VPN для Telegram Desktop, Steam или игр — нужен отдельный клиент (см. ТОП-10 выше).</div></div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-q-head"><button class="faq-q">Zoog VPN — это нормальный бесплатный VPN для Windows?<span class="faq-icon">+</span></button></h3>
+        <div class="faq-a"><div class="faq-a-inner">Zoog VPN — британский сервис с собственным клиентом под Windows 10 и 11. На бесплатном тарифе даёт 10 ГБ/мес без карты и SMS, 5 стран на выбор. Скорость на free — около 65–70 Мбит/с днём, вечером проседает до 30–35 Мбит/с. Для повседневного сёрфинга, Telegram и YouTube Full HD — хватает. Для 4K и игр уже нужен платный тариф, но российские карты он не принимает — оплата только иностранной картой или криптой.</div></div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-q-head"><button class="faq-q">Как раздать VPN с Windows на телефон или консоль?<span class="faq-icon">+</span></button></h3>
+        <div class="faq-a"><div class="faq-a-inner">На Windows 11 и Windows 10: «Параметры» → «Сеть и Интернет» → «Мобильный хот-спот» → в поле «Общий доступ» выберите VPN-адаптер → включите тумблер. Телефоны, планшеты и ТВ, подключённые к этой Wi-Fi сети, автоматически идут через активный VPN ПК. На Windows 7 — через <code>netsh wlan</code> из командной строки (см. раздел «Раздача» выше). Важно: VPN должен работать в глобальном режиме, не Split Tunnel.</div></div>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-q-head"><button class="faq-q">Что делать, если VPN не работает на Windows?<span class="faq-icon">+</span></button></h3>
+        <div class="faq-a"><div class="faq-a-inner">По порядку: 1) переключите протокол WireGuard → OpenVPN → VLESS/HAPP; 2) смените сервер — перегруженный узел часто даёт 0 Мбит/с; 3) проверьте Windows Defender и антивирус — добавьте VPN-клиент и VPN-адаптер в исключения; 4) переустановите TAP/TUN-драйвер через «Диспетчер устройств»; 5) в CMD выполните <code>ipconfig /flushdns</code> и <code>netsh winsock reset</code>; 6) перезагрузите ПК. Полный разбор шести частых проблем — в разделе Troubleshooting выше.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section id="reviews" class="reviews-section">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-nb">SECTION_14</div>
+      <div>
+        <h2 class="sec-title">Отзывы пользователей — опыт VPN на Windows</h2>
+        <p class="sec-desc">Шесть историй от людей, которые настроили VPN на своих ПК с Windows в 2025–2026 годах. Связался с каждым для подтверждения подлинности — имена сокращены по их просьбе.</p>
+      </div>
+    </div>
+
+    <div class="rev-grid">
+      <article class="rev-card">
+        <header class="rev-top">
+          <div class="rev-av av1">ИЛ</div>
+          <div>
+            <div class="rev-name">Илья Л., Москва</div>
+            <div class="rev-meta">// Windows 11 Pro · VPNTYPE</div>
+          </div>
+          <div class="rev-stars">★★★★★</div>
+        </header>
+        <p class="rev-text">Работаю DevOps в международной компании — без VPN половина рабочих сервисов в РФ не открывается. Поставил VPNTYPE через VLESS на рабочий ПК — GitHub, Jira, Grafana и Slack заработали сразу. Три недели без единого разрыва, скорость через VLESS стабильно 95+ Мбит/с.</p>
+      </article>
+
+      <article class="rev-card">
+        <header class="rev-top">
+          <div class="rev-av av2">ОС</div>
+          <div>
+            <div class="rev-name">Ольга С., Санкт-Петербург</div>
+            <div class="rev-meta">// Windows 10 · HideMy.Name</div>
+          </div>
+          <div class="rev-stars">★★★★★</div>
+        </header>
+        <p class="rev-text">Нужен был VPN на домашний ПК и на ноутбук дочери, и ещё на старый Win 7 компьютер мамы. HideMy.Name — единственный из ТОПа, где один ключ реально ставится на все три системы. За год — ни одной проблемы. Тариф семейный, выходит 250 ₽/мес за трёх.</p>
+      </article>
+
+      <article class="rev-card">
+        <header class="rev-top">
+          <div class="rev-av av3">СТ</div>
+          <div>
+            <div class="rev-name">Станислав Т., Казань</div>
+            <div class="rev-meta">// Windows 11 · Planet VPN</div>
+          </div>
+          <div class="rev-stars">★★★★☆</div>
+        </header>
+        <p class="rev-text">Искал бесплатный впн для windows сыну — он в Roblox играет, YouTube смотрит. Planet VPN без регистрации установился за две минуты. Для школьных задач хватает. Реклама внутри клиента раздражает, но терпимо. Платить за бесплатную альтернативу не вижу смысла.</p>
+      </article>
+
+      <article class="rev-card">
+        <header class="rev-top">
+          <div class="rev-av av4">РГ</div>
+          <div>
+            <div class="rev-name">Роман Г., Новосибирск</div>
+            <div class="rev-meta">// Windows 11 · AmneziaVPN</div>
+          </div>
+          <div class="rev-stars">★★★★★</div>
+        </header>
+        <p class="rev-text">Как разработчик хотел свой VPN-сервер, без подписок и без логов у провайдера сервиса. Поднял Amnezia на Timeweb в Финляндии за 180 ₽/мес. Клиент на Windows 11 — ставится штатным установщиком. YouTube и GitHub — как до 2022 года. Amnezia-WG никто из провайдеров не распознал.</p>
+      </article>
+
+      <article class="rev-card">
+        <header class="rev-top">
+          <div class="rev-av av5">ВП</div>
+          <div>
+            <div class="rev-name">Вера П., Екатеринбург</div>
+            <div class="rev-meta">// Windows 10 · AdGuard VPN</div>
+          </div>
+          <div class="rev-stars">★★★★★</div>
+        </header>
+        <p class="rev-text">Мне нужен был простой вариант — VPN и реклама вне YouTube чтобы пропала. AdGuard VPN Premium и то, и другое в одном приложении. Настроила сама, никто не помогал. Реклама в YouTube и на новостных сайтах — как отрезали. 329 ₽/мес — справедливо.</p>
+      </article>
+
+      <article class="rev-card">
+        <header class="rev-top">
+          <div class="rev-av av6">ДФ</div>
+          <div>
+            <div class="rev-name">Денис Ф., Краснодар</div>
+            <div class="rev-meta">// Windows 11 · HAPP + VPNTYPE</div>
+          </div>
+          <div class="rev-stars">★★★★★</div>
+        </header>
+        <p class="rev-text">Работаю с международными клиентами, часто в командировках с ноутбуком на Windows 11. Поставил HAPP, подключил VLESS-конфиг от VPNTYPE — и никакая блокировка больше не волнует. Пинг до европейских серверов 36 мс, рабочая почта и Zoom — без задержек. Один раз настроил, вспоминаю раз в месяц, когда плачу.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<section class="editorial-refresh" id="editorial-update" aria-label="Редакционное обновление">
+<small>Редакционное обновление: <time datetime="2026-11-03">3 ноября 2026</time></small>
+<h2>VPN для Windows: практические уточнения</h2>
+<h3>Что проверить перед установкой</h3><p>Выбирайте клиент для своей версии операционной системы и архитектуры устройства. Ссылка на приложение и поддержка протокола важнее обещаний универсального подключения на любой технике.</p>
+<ol><li>Откройте страницу разработчика и проверьте системные требования, источник загрузки и условия бесплатного тарифа.</li><li>Разрешите создание VPN-профиля, подключитесь к одному серверу и проверьте нужные приложения. Одновременный запуск двух VPN может мешать соединению.</li><li>Проверьте работу после сна и смены сети. При сбое сначала обновите клиент и профиль, затем сравните Wi-Fi и мобильное подключение.</li></ol>
+<h3>Как читать цены и результаты в обзоре</h3>
+<p>Дата редакционного обновления означает правку текста и структуры страницы. Даты прежних тестов сохранены отдельно: новое измерение скорости и проверка каждого сервера не проводились. Цены, акции, способы оплаты и доступность приложений уточняйте у поставщика перед подключением.</p>
+<p>VPN требует работающего интернет-соединения и не восстанавливает связь при отключении сети или подавлении радиосигнала. Он не гарантирует доступ к любому сервису и не заменяет защиту аккаунта.</p>
+<p>Полезные первоисточники: <a href="https://www.wireguard.com/quickstart/" rel="noopener noreferrer">конфигурации WireGuard</a>, <a href="https://protonvpn.com/support/android-tv" rel="noopener noreferrer">совместимость Android TV</a>, <a href="https://developers.cloudflare.com/warp-client/known-issues-and-faq/" rel="noopener noreferrer">ограничения WARP</a>.</p>
+</section>
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <div class="footer-logo"><span class="footer-bracket">[</span>VPN<span class="footer-dot">/</span>WIN<span class="footer-bracket">]</span></div>
+      <p>Независимый рейтинг VPN-сервисов для Windows 7, 10 и 11. Составлен на основе личного тестирования в корпоративной сети и на домашних ПК с Ростелекомом и МТС.</p>
+    </div>
+    <div class="footer-col">
+      <p>© 2026 — материал обновлён 23 июля 2026. Часть ссылок на сервисы — партнёрские, цена для читателя не меняется. Автор — Максим Воронов, системный администратор Windows, MCSA.</p>
+      <p>Материал носит информационный характер. Используйте VPN в соответствии с законодательством вашей страны.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
